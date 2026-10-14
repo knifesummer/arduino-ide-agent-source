@@ -1,0 +1,22 @@
+Arduino IDE Agent 本地测试版
+
+首次下载后：
+1. 右键 ZIP → 属性 → 勾选“解除锁定” → 应用，然后解压整个 ZIP。
+2. 双击解压文件夹中的 Arduino IDE Agent.exe。
+
+已经解压，启动时仍显示“Windows 已保护你的电脑”：
+在该应用文件夹中运行“修复启动提示.cmd”。它先核对两个启动 EXE 的
+SHA-256，保存原下载标记，再只解除这两个文件的下载锁定。工具会核对
+自身配套脚本，文件不匹配时停止，不会解除其他下载文件的锁定。
+如果 Windows 对修复工具也弹出提示，请先在文件属性中解除该工具的锁定。
+
+此操作相当于文件属性中的“解除锁定”，不会关闭 SmartScreen、Defender，
+不会更改执行策略、导入证书或修改 Arduino 工程、API Key 和对话历史。
+
+“发行者未知”表示这个测试版没有受信任的数字签名。解除下载锁定解决
+当前副本的下载警告，不会给程序添加数字签名。正式分发需要代码签名并
+积累信誉；新的下载副本仍可能显示提示。不要为此关闭系统的安全保护。
+
+微软说明：
+https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/unblock-file
+https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/smartscreen-reputation

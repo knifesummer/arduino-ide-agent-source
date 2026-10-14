@@ -1,0 +1,81 @@
+[CmdletBinding()]
+param(
+    [string]$AppDirectory,
+    [switch]$CheckOnly
+)
+
+$ErrorActionPreference = 'Stop'
+[Console]::OutputEncoding = New-Object System.Text.UTF8Encoding($false)
+
+try {
+    # 避免从 PowerShell 7 启动 5.1 时继承模块路径而加载到不兼容模块。
+    Import-Module -Name (Join-Path $PSHOME 'Modules\Microsoft.PowerShell.Utility\Microsoft.PowerShell.Utility.psd1')
+    if ([string]::IsNullOrWhiteSpace($AppDirectory)) {
+        $AppDirectory = $PSScriptRoot
+    }
+    $taskAppRoot = (Resolve-Path -LiteralPath $AppDirectory).ProviderPath
+    $taskRootItem = Get-Item -LiteralPath $taskAppRoot
+    if (-not $taskRootItem.PSIsContainer -or ($taskRootItem.Attributes -band [IO.FileAttributes]::ReparsePoint)) {
+        throw '请选择实际解压后的应用文件夹，不能使用链接目录。'
+    }
+
+    # 校验全部启动文件后才修改下载标记。不会修改系统安全设置或程序内容。
+    $taskExpectedFiles = @(
+        @{ Name = 'Arduino IDE Agent.exe'; SHA256 = '__LAUNCHER_SHA256__' },
+        @{ Name = 'Arduino IDE Agent Core.exe'; SHA256 = '__CORE_SHA256__' }
+    )
+    $taskCheckedFiles = @()
+    foreach ($taskExpectedFile in $taskExpectedFiles) {
+        $taskFilePath = Join-Path $taskAppRoot $taskExpectedFile.Name
+        $taskFileItem = Get-Item -LiteralPath $taskFilePath
+        if ($taskFileItem.PSIsContainer -or ($taskFileItem.Attributes -band [IO.FileAttributes]::ReparsePoint)) {
+            throw ('启动文件不是普通文件：' + $taskExpectedFile.Name)
+        }
+        $taskActualHash = (Get-FileHash -LiteralPath $taskFilePath -Algorithm SHA256).Hash
+        if ($taskActualHash -ne $taskExpectedFile.SHA256) {
+            throw ('文件校验失败，未解除锁定：' + $taskExpectedFile.Name + '。请使用与修复工具配套的完整发布包。')
+        }
+        $taskZoneStream = Get-Item -LiteralPath $taskFilePath -Stream Zone.Identifier -ErrorAction SilentlyContinue
+        $taskCheckedFiles += [PSCustomObject]@{
+            Name = $taskExpectedFile.Name
+            Path = $taskFilePath
+            SHA256 = $taskActualHash
+            DownloadMarked = ($null -ne $taskZoneStream)
+        }
+    }
+
+    if ($CheckOnly) {
+        $taskCheckedFiles | Select-Object Name, SHA256, DownloadMarked | ConvertTo-Json -Compress
+        return
+    }
+
+    $taskMarkedFiles = @($taskCheckedFiles | Where-Object { $_.DownloadMarked })
+    if ($taskMarkedFiles.Count -eq 0) {
+        Write-Host '两个启动文件校验通过，未发现下载锁定。请启动当前文件夹中的 Arduino IDE Agent.exe。'
+        return
+    }
+
+    # 保存原下载标记，便于撤销。本地备份不会上传，也不会打印下载地址。
+    $taskBackup = @($taskMarkedFiles | ForEach-Object {
+        [PSCustomObject]@{
+            Name = $_.Name
+            SHA256 = $_.SHA256
+            ZoneIdentifier = (Get-Content -LiteralPath $_.Path -Stream Zone.Identifier -Raw).ToString()
+        }
+    })
+    $taskBackupName = '.agent-startup-unblock-backup-' + [Guid]::NewGuid().ToString('N') + '.json'
+    $taskBackupPath = Join-Path $taskAppRoot $taskBackupName
+    $taskBackup | ConvertTo-Json -Depth 4 | Set-Content -LiteralPath $taskBackupPath -Encoding UTF8
+
+    foreach ($taskMarkedFile in $taskMarkedFiles) {
+        Unblock-File -LiteralPath $taskMarkedFile.Path
+        if (Get-Item -LiteralPath $taskMarkedFile.Path -Stream Zone.Identifier -ErrorAction SilentlyContinue) {
+            throw ('解除下载锁定失败：' + $taskMarkedFile.Name)
+        }
+    }
+    Write-Host ('已解除 ' + $taskMarkedFiles.Count + ' 个启动文件的下载锁定，原标记已备份在应用文件夹。')
+    Write-Host '现在可以双击 Arduino IDE Agent.exe。'
+} catch {
+    Write-Host ('启动修复失败：' + $_.Exception.Message) -ForegroundColor Red
+    exit 1
+}

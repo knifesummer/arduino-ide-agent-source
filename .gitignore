@@ -1,0 +1,51 @@
+node_modules/
+lib/
+downloads/
+arduino-ide-extension/src/node/resources
+arduino-ide-extension/Examples/
+src-gen/
+gen-webpack.config.js
+gen-webpack.node.config.js
+.DS_Store
+# switching from `electron` to `browser` in dev mode.
+.browser_modules
+yarn*.log
+# For the VS Code extensions used by Theia.
+electron-app/plugins
+# the tokens folder for the themes
+scripts/themes/tokens
+# content trace files for electron
+electron-app/traces
+# any Arduino LS generated log files
+inols*.log
+# The electron-builder output.
+electron-app/dist
+electron-app/.cache
+.env
+.env.*
+.arduinoIDE/
+*.local.json
+# Arduino CLI runtime data created when a portable profile is misconfigured.
+inventory.yaml
+library_index.json*
+package_index.json*
+packages/
+staging/
+# Local, untracked runtime backups and smoke-test artifacts.
+tmp/
+# Local profiles, private conversation/config data, and source-release archives.
+.agent-profile*/
+.arduinoIDE-Agent/
+agent-data/
+ai-agent.json*
+ai-agent-history.json*
+release-source/
+builder-debug.yml
+*.pfx
+*.p12
+*.key
+*.pem
+*.log
+electron-app/launcher/*.exe
+__pycache__/
+*.pyc

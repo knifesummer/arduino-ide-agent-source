@@ -1,0 +1,35 @@
+name: Agent 源码检查
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  source-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: mkdir -p tmp arduino-ide-extension/src/node/resources
+      - run: python scripts/test-export-source.py
+      - run: python scripts/export-source.py --check
+      - run: corepack yarn install --frozen-lockfile --ignore-scripts
+      - run: corepack yarn --cwd arduino-ide-extension copy-i18n
+      - run: node node_modules/typescript/bin/tsc --project arduino-ide-extension
+      - name: 离线 Agent 协议、提示词与历史回归
+        run: >-
+          node node_modules/mocha/bin/mocha.js
+          --require reflect-metadata --require ignore-styles
+          arduino-ide-extension/lib/test/node/ai-agent-reasoning.test.js
+          arduino-ide-extension/lib/test/node/ai-agent-prompt.test.js
+          arduino-ide-extension/lib/test/node/ai-agent-history.test.js
+          --reporter dot --timeout 10000

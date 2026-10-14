@@ -1,0 +1,3134 @@
+{
+  "formatVersion": 1,
+  "sourceCommit": "d62771d807249551a0bd282a995d63a548102f49",
+  "files": [
+    {
+      "path": ".eslintrc.js",
+      "bytes": 2272,
+      "sha256": "778dcdeec4278c73226cb5f4741530fb13f44139d21ae417d54fcb913f958f1d"
+    },
+    {
+      "path": ".github/workflows/agent-check.yml",
+      "bytes": 1192,
+      "sha256": "faacbdbe725f776b12b2c76b29689a6af29d10f43a279238f9d03528fb60a6e5"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 1124,
+      "sha256": "32b7073257d32c6eeb84876130a1b923e6b0994105edb904254b4f2cec4e0bf0"
+    },
+    {
+      "path": ".prettierignore",
+      "bytes": 162,
+      "sha256": "c98fc646c02bb3432d9879732db7d06211300df281e87c114089205eaf2c98e6"
+    },
+    {
+      "path": ".prettierrc.json",
+      "bytes": 445,
+      "sha256": "ae1bd92ede4403236c9851cce9865e3e884d50775128247f5a7b19dd7f54a4c2"
+    },
+    {
+      "path": ".vscode/launch.json",
+      "bytes": 4048,
+      "sha256": "6f45bb6334c4943c21f55ca747950c34af756afec4beb53c42522b0ca63a080d"
+    },
+    {
+      "path": ".vscode/settings.json",
+      "bytes": 284,
+      "sha256": "fb460386c088ee256fa1bb80ea0c5b6986424cdec648170287a4f07e64ef7807"
+    },
+    {
+      "path": ".vscode/tasks.json",
+      "bytes": 1020,
+      "sha256": "561b9a005a3c97ff44bcd6272cbc496e90eb2a8911b71635b8935d663ca8d8a3"
+    },
+    {
+      "path": "BUILDING.md",
+      "bytes": 109,
+      "sha256": "50ec5d1ab5a20310c1a1ff98b5627dc7da00fcee927435af5063b664966c138f"
+    },
+    {
+      "path": "LICENSE.txt",
+      "bytes": 35184,
+      "sha256": "e0eedba615d5cd1b986afb6c5b3a4b1ae33713e7e9dc74d19daec5e3221f9d2e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3554,
+      "sha256": "7d11f7689eeb933f485ecf888ad8b2e78c2ce8ef16cf2e44f2479eba0d558265"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 2695,
+      "sha256": "e5df551ed133776f2cf350273b5a6caf19cd098e8bb37d5909869d00f750199c"
+    },
+    {
+      "path": "arduino-ide-extension/README.md",
+      "bytes": 5838,
+      "sha256": "e97a519d63b76521435d140f41a24ebe3487e6968df2dec74ad4daf672accd8d"
+    },
+    {
+      "path": "arduino-ide-extension/arduino-icons.json",
+      "bytes": 222733,
+      "sha256": "7efa80428bd2ae399741f794c7508f49c2a12fadd3fd2e4c99d358286b506b92"
+    },
+    {
+      "path": "arduino-ide-extension/package.json",
+      "bytes": 5639,
+      "sha256": "3ff7bdbe9ff045b19ac92181c67c27de5cb1cb7ac5e002c07b4a4d3c7262a51c"
+    },
+    {
+      "path": "arduino-ide-extension/scripts/compose-changelog.js",
+      "bytes": 3786,
+      "sha256": "1d28c5a0cee588f75cb227d16c860e090a7a106c0fda64c8a557fbf33ed6fff3"
+    },
+    {
+      "path": "arduino-ide-extension/scripts/download-cli.js",
+      "bytes": 2812,
+      "sha256": "4c7f382d7f669a7ee8c2b2ede56c7611b2091aa30e86e43dad4c8688f0cddaf9"
+    },
+    {
+      "path": "arduino-ide-extension/scripts/download-examples.js",
+      "bytes": 3159,
+      "sha256": "69731a6309fcc7d675e692dc7b09790ac2477acab6cdc14a762ba9a705aa25fc"
+    },
+    {
+      "path": "arduino-ide-extension/scripts/download-fwuploader.js",
+      "bytes": 2701,
+      "sha256": "9ace72d86a074be1442bfb7427521592253a560f5cce86a679e397809b95831a"
+    },
+    {
+      "path": "arduino-ide-extension/scripts/download-ls.js",
+      "bytes": 5364,
+      "sha256": "4c820f7f93c3f2e79b78506f90849a0eea2b9372ffd730bafb4feaba00b678ef"
+    },
+    {
+      "path": "arduino-ide-extension/scripts/downloader.js",
+      "bytes": 4048,
+      "sha256": "030acb1938d9f088d7b50dffc2bec981d8b6ca98adf4c3e4f65f22b7b3cce9fb"
+    },
+    {
+      "path": "arduino-ide-extension/scripts/generate-protocol.js",
+      "bytes": 6094,
+      "sha256": "04f03ff597d9cb3e2265cf3d88c62bbdd39cc4b812223548fa69224358e72594"
+    },
+    {
+      "path": "arduino-ide-extension/scripts/utils.js",
+      "bytes": 4596,
+      "sha256": "c4a62c7370cdbe3ba7c1d30da7db1ab6175d547e63acef8a9a4f226202b1c46f"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/ai-agent/ai-agent-client.ts",
+      "bytes": 1192,
+      "sha256": "3549b771032c5075472e8d331e918fc9047b7c1fe3101eb51f40f8988f4a3e79"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/ai-agent/ai-agent-panel.tsx",
+      "bytes": 36702,
+      "sha256": "ecf033372d185af20b480efc66edd69b242820e09707051cb9a257d712fea8d3"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/ai-agent/ai-agent-prompt-settings.tsx",
+      "bytes": 4574,
+      "sha256": "80e9813b6ae2cf637d830bed217650603dc59081a445ef6fd9ebc2d0f038e62f"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/ai-agent/ai-agent-templates.ts",
+      "bytes": 2646,
+      "sha256": "7491f24725b8cc4d42d0ca099bae1414d16862938e212d1e061f768682e7c0de"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/ai-agent/ai-agent-tools.ts",
+      "bytes": 23314,
+      "sha256": "f826c2a7746bbfa31d60f4bbd0a39c29918a0de2855f53653e95ea77d545c016"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/ai-agent/ai-agent-view-contribution.ts",
+      "bytes": 3962,
+      "sha256": "854fa6e599f2fe96e1774bf6358e7032255395e20922e05975d9609f9c6478b3"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/ai-agent/ai-agent-widget.tsx",
+      "bytes": 41947,
+      "sha256": "35cd151af0fd0939addd137ed97df74e7be09d22319a8b8bc7a7442c44aa4dd8"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/app-service.ts",
+      "bytes": 595,
+      "sha256": "8f276a216046943f65a1baeb5cea81db501e27012ba2c5303640df5005ca31c9"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/arduino-frontend-contribution.tsx",
+      "bytes": 17461,
+      "sha256": "e6f5ebe330d80d0b3359977aa426b3b42a7b70adac71b3399238cfa42034e0a3"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/arduino-ide-frontend-module.ts",
+      "bytes": 54000,
+      "sha256": "b7975caad54fb416b836f280c1e4dc80912952331cba4f19aca7b642cf597138"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/arduino-preferences.ts",
+      "bytes": 13113,
+      "sha256": "39d5782ba0e1cdfe186dd59be475f35c4ba8642b1256ef7c5fa0af5df7d6ab48"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/auth/authentication-client-service.ts",
+      "bytes": 3475,
+      "sha256": "794ed45ac6d35ecc8e09e6188702f73874b0c6ed6132d8b689210a96b3dd136f"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/auth/cloud-user-commands.ts",
+      "bytes": 544,
+      "sha256": "d6d31b4a7d9be7db91e35a19911b00edae41c0c5dc5c57f37d93f0450938acaa"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/boards/boards-auto-installer.ts",
+      "bytes": 8675,
+      "sha256": "cbd42fa5fc1feb95ae5cac67f5af63a5e4b6277b1e060c96bed4b31c97642de1"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/boards/boards-config-component.tsx",
+      "bytes": 10780,
+      "sha256": "b1f4d1b6da25356dbfa85bfcec0b5dd6d9719734a8c994469d285767db6c056c"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/boards/boards-config-dialog.tsx",
+      "bytes": 7153,
+      "sha256": "b2b2ad411c77e54def09dc3caeef012738d5a8b15c36fddce0f7ee339512eda8"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/boards/boards-data-store.ts",
+      "bytes": 11827,
+      "sha256": "3ef4749e15e7ecaa00e3ec3c326953b10b2b3682b7e0f46b91de61f7832d9db2"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/boards/boards-list-widget.ts",
+      "bytes": 2581,
+      "sha256": "3e6329299cd8b273363942cc418eae90f179c4a26ba45222543275880f0b1390"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/boards/boards-service-provider.ts",
+      "bytes": 21609,
+      "sha256": "f634c3a9204d852960681d5ff3d66305ec476132efff3c41a9759acec6963315"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/boards/boards-toolbar-item.tsx",
+      "bytes": 10707,
+      "sha256": "85c2f5c27cb0d04b19f97a1367d170ee37506592a0fadb7470cf8207cce0d8aa"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/boards/boards-widget-frontend-contribution.ts",
+      "bytes": 1129,
+      "sha256": "1b14bd72aeb9001f44a81c36e93669f55e72af75ada1febb98180783ef8c387e"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/components/ProgressBar.tsx",
+      "bytes": 748,
+      "sha256": "0e1e9766791ea49a10f608a1b608ce347acd9e83c0de886e706492ff9622dc54"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/config/config-service-client.ts",
+      "bytes": 3420,
+      "sha256": "852244edb7848108d80a96768e682463c5b1a83ce29911bea9b370ac50f428f9"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/about.ts",
+      "bytes": 5480,
+      "sha256": "5240b0e97ed54dfe68041129461d18f7edaf1ae012b8d4ac76fbc69efec81e68"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/account.ts",
+      "bytes": 5524,
+      "sha256": "032b0dbf46f85bceb299c41857596619103f1532c5ef1e3dfbce264d9e372b30"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/add-file.ts",
+      "bytes": 3416,
+      "sha256": "f2710c724b4422801e49c7bb14c298c5229539caab935b9ee64d9d676413d14d"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/add-zip-library.ts",
+      "bytes": 4850,
+      "sha256": "f3dacfe160fece3776c8084a021c1dfa95337b238920c1dad9cfe4dd97bbcacd"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/archive-sketch.ts",
+      "bytes": 2301,
+      "sha256": "1cd15249b6a72985a3c3f60edea9f796347fed230109f205c534f715457cd02b"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/auto-select-programmer.ts",
+      "bytes": 4216,
+      "sha256": "167fd7446d6a4e291fc4a19bfc93002da6f8a469207e92a8005645c13b8700c4"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/board-selection.ts",
+      "bytes": 13147,
+      "sha256": "bddd5841adfad06296db0e89a49d6ae5766f7fe00517d22198744510957832de"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/boards-data-menu-updater.ts",
+      "bytes": 6608,
+      "sha256": "4c85505e04fb18850fd8af04601f040c7ed7c16a8458b85b563121243d9ba7ac"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/burn-bootloader.ts",
+      "bytes": 2566,
+      "sha256": "a18c2d7de74b9aa12e6157c9607902e86b8eeffb8eaebf8c37efa139577a7702"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/check-for-ide-updates.ts",
+      "bytes": 2199,
+      "sha256": "6adc87024eaeee148710543e4304fc6afeae9be36e37b27c4913ad87352941e1"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/check-for-updates.ts",
+      "bytes": 7118,
+      "sha256": "04c03399772e4de5fcde3a5cdf98a1451db49851b5a78100216e874a641c15ea"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/close.ts",
+      "bytes": 7142,
+      "sha256": "e672577ac3662574e7d03a29dfdad11c3af7975a5612b12737490fb47116c8bd"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/cloud-contribution.ts",
+      "bytes": 4167,
+      "sha256": "a9058a8c8cb29b742c9b437dee0ffa7265edf2c564d7ba4188a3b4ab562042b0"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/compiler-errors.ts",
+      "bytes": 26474,
+      "sha256": "1dd0e232cdf97b6923724b797b07168215b685d8bda4e1e032ece56121bf1967"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/contribution.ts",
+      "bytes": 12452,
+      "sha256": "8e511190ce13a992ffe5679dedc42208d37b9c3428cf711474f38995d9274b8f"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/core-error-handler.ts",
+      "bytes": 940,
+      "sha256": "d6d2c5400ea1feda3a5dfb7acdf4e7557ae1ed571c08f78657a0a701f0cd75d8"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/create-cloud-copy.ts",
+      "bytes": 4506,
+      "sha256": "d6b49ed0d11b0da3f43f1c5d66dd8e92376a670d79b83c96ab1472d43763f807"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/daemon.ts",
+      "bytes": 1401,
+      "sha256": "da190360cbe0a868390a9c13931243666de21eb394e92a93cf5e32220f1d35de"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/debug.ts",
+      "bytes": 14304,
+      "sha256": "5510eb26d4c338ca7be8390f4aad3fddf5d5392ab7d6151035efbd411ba63720"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/delete-sketch.ts",
+      "bytes": 6226,
+      "sha256": "596389b37824c981af77fbeecb4d96caf4af4b18904da5dede7057cd371a92b4"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/edit-contributions.ts",
+      "bytes": 9728,
+      "sha256": "3faa7b7fc9ca291ce45bad0b4dcb39bd38e131733e7403260136a2d98713384a"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/examples.ts",
+      "bytes": 11228,
+      "sha256": "30e8636129e20dbdc42d416242b9eaebe2e24a7863c64415bf828a8976eefb13"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/first-startup-installer.ts",
+      "bytes": 4256,
+      "sha256": "9a8e77248369e722ec5207ca5883859229def7f0a2ba9d2335f899129988aa11"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/format.ts",
+      "bytes": 2710,
+      "sha256": "e3b96565920b6ff32e6a65df07a09905bd0bd4adb7224716899553374512c320"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/help.ts",
+      "bytes": 6911,
+      "sha256": "816d4e20694e0f5b936a71335f2c18d422ff119b549d767ba06d33a1f6ab9906"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/include-library.ts",
+      "bytes": 7922,
+      "sha256": "fecf55f5cc9ce6733d486e1af36b050ffaf2c8c4530dbd7493d0d4df30cfb309"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/indexes-update-progress.ts",
+      "bytes": 2574,
+      "sha256": "37a6d0093e22c4d6d144d6a4b48132813902ca3fd80db42ed5f4fc6629060c17"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/ino-language.ts",
+      "bytes": 11432,
+      "sha256": "f3254bf800a113b35f9034098d0c8630ff7ea8d92d2e3f311de5c3a19e519b24"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/interface-scale.ts",
+      "bytes": 5501,
+      "sha256": "81deb29f9c7845188f342d1618d3a9a71db86d040694b083399f2f2eb89236c0"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/new-cloud-sketch.ts",
+      "bytes": 6796,
+      "sha256": "8a54a5b34a4a45ddf9a82dff640077224f0b5d13f6f2e96ba04acaaff57c31c9"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/new-sketch.ts",
+      "bytes": 1459,
+      "sha256": "8d4fce46ce5438eb6bd2f285e8d4a1600dc17e681b0b48a212079d6826724f41"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/open-boards-config.ts",
+      "bytes": 950,
+      "sha256": "3b163f5d3ef4652d222c9d5d36c831e0e8bd68f93c28dd66233dafdc9b5b9596"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/open-recent-sketch.ts",
+      "bytes": 3309,
+      "sha256": "1920b4c89ba53e4e27c9fec7b51243e78c79a413b206a35edb526ae39d043dd6"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/open-settings.ts",
+      "bytes": 2409,
+      "sha256": "5e7dbb50a8e57537b52ae6b7bf5599ef192b259e56c72e4deb9ebd2b7dc0e33b"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/open-sketch-external.ts",
+      "bytes": 1744,
+      "sha256": "857ff0c43e0e9b04aad45049a69ee56308dbcb3b0cd6c0cff27d98e729350232"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/open-sketch-files.ts",
+      "bytes": 8567,
+      "sha256": "9f30ad6980b6602f8f96a4e5888eca086e14629682ae424ef55106d302fd9508"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/open-sketch.ts",
+      "bytes": 5650,
+      "sha256": "5545311afd095d56b43ed3420e8092c6c79efd500ee035a998b82473258113cf"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/quit-app.ts",
+      "bytes": 1549,
+      "sha256": "c7e83e504fd6b338b38a34f71441263c2a64da1a134fca899f10241203805676"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/rename-cloud-sketch.ts",
+      "bytes": 5541,
+      "sha256": "d2895091ada5c8e539e666ee99222985f2bd11c5ecfae22143165af733f2071b"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/save-as-sketch.ts",
+      "bytes": 11931,
+      "sha256": "235703279a71649c74a70e3268332ae678f5bd5c32c4d7a348257cb1c00c2329"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/save-sketch.ts",
+      "bytes": 2875,
+      "sha256": "ac6fd7441e577eea0677393525bcfe4abd66706bc5d8de288ec07ff012a19523"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/selected-board.ts",
+      "bytes": 2382,
+      "sha256": "e3af1cefd0c96e6259f6f7d2d1d77bf5ce80934c6ece752213a25eb62d211b6b"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/sketch-control.ts",
+      "bytes": 6747,
+      "sha256": "03469be35afcbe5dcd12eb54c150c52545f0642f0b2740ccb2ad002b3378e36f"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/sketch-files-tracker.ts",
+      "bytes": 2380,
+      "sha256": "631cda296d72bba8f9f19a00e5902badb6ffde3e79a78f6ce64fd2b6094d9655"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/sketchbook.ts",
+      "bytes": 1968,
+      "sha256": "f241659450a0f9c831c814601f9c0b78eaab0512a0f08cade04a0af91cd99532"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/startup-tasks-executor.ts",
+      "bytes": 1840,
+      "sha256": "466afec9d7821e63d2c9cfae22136b9ea6a97ce1e74e91b8dda7f5c79a926300"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/survey-notification.ts",
+      "bytes": 2743,
+      "sha256": "ef0c99f07a35dc5e251cb690ea87eca84a9e9ec42aeafa0f2ce781cdcf027eed"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/update-arduino-state.ts",
+      "bytes": 6296,
+      "sha256": "f6d825522864cdef21477dac2a0464ea3a3b3617e4a59cc433ba8ff37cb776b4"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/update-indexes.ts",
+      "bytes": 6853,
+      "sha256": "2628bdf45a67ad6663ad7265759d6694e93642a3b7ba4742cc6d0a176b4e7653"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/upload-certificate.ts",
+      "bytes": 4531,
+      "sha256": "ba2f4d73061de09695109d49cae04f7c839bead2487367f47e81031fc9745797"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/upload-firmware.ts",
+      "bytes": 1573,
+      "sha256": "8aa7f94fd8c57383b68e1af431042e860fe112077227488fa4ed56677dae93e2"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/upload-sketch.ts",
+      "bytes": 7179,
+      "sha256": "9501c9c02bba1e2b7aceb43aec4cbf4c5cf763923b7ec532c40501c0e4a029b8"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/user-fields.ts",
+      "bytes": 4310,
+      "sha256": "fa359fa52eaa4fa58502d1d90f87165298cba567ddab3d2fcec8f68d68f04fdc"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/validate-sketch.ts",
+      "bytes": 6267,
+      "sha256": "c4b4ab5884e1a7b37e2e18c0662fe2bcd472771fc74464a0b1a8cd7a4df4d5bd"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/contributions/verify-sketch.ts",
+      "bytes": 6982,
+      "sha256": "a50868e294fc280ec526fd43e66aa580bbb2cd3d509ee7a9dd9d74e12cffc0b8"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/create/create-api.ts",
+      "bytes": 17315,
+      "sha256": "fa2fa66aad42f7a2036434dc80d80083c1ae50f6ac4ab01ce7cf820c6d03df45"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/create/create-features.ts",
+      "bytes": 5165,
+      "sha256": "ba45fc9d9119178e5ae7d69e3218e195dffae9eec8e5f370c9ce7e6a3b88e25a"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/create/create-fs-provider.ts",
+      "bytes": 5713,
+      "sha256": "4ac0c364c74ebac823fd4b82bc7c93ec11b692adb39044a00f58d1e2863e8cc2"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/create/create-paths.ts",
+      "bytes": 1914,
+      "sha256": "e5a7eca556cb72be0461087dce95bc4342a135a810f53a07485523b04ce20788"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/create/create-uri.ts",
+      "bytes": 1204,
+      "sha256": "a190525c1db1e80d775bee2683e913a8543d2630200c0257cf1860f6eeaa5163"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/create/typings.ts",
+      "bytes": 3166,
+      "sha256": "bc727a00f43f99a6da50fa52381fb90d07a701219bf260a03bdb748338d59c9a"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/data/dark.color-theme.json",
+      "bytes": 5078,
+      "sha256": "dfc42ed9582b6bb90a32cf1d562d0e303302aa3a7819d99a09f7f9edcb133a99"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/data/default.color-theme.json",
+      "bytes": 5086,
+      "sha256": "607866148b35b817932913e0d0dbeefc19ff66b3334436cf64477500747b4363"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/dialog-service.ts",
+      "bytes": 537,
+      "sha256": "a8c8da0a047aaabe3fc4b31d2589392307a62f0c76b9fa4595ae021025a90d55"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/dialogs/certificate-uploader/certificate-add-new.tsx",
+      "bytes": 1179,
+      "sha256": "65223d276b6f79ee714dc16c5380adecd9d6bd28bb440c9112039d2267f4ad14"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/dialogs/certificate-uploader/certificate-list.tsx",
+      "bytes": 1390,
+      "sha256": "cdd6a299f744725da2356fa65dba85a5ff189a4acd3678eaee5ce21a4852784c"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/dialogs/certificate-uploader/certificate-uploader-component.tsx",
+      "bytes": 6073,
+      "sha256": "c66e4d09d4ff11be79e38d2bec707c8f369a69d44b1282bffc269ab45caa7bd0"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/dialogs/certificate-uploader/certificate-uploader-dialog.tsx",
+      "bytes": 6239,
+      "sha256": "7a364a3b8d1a4cb47bdaf10b34107c9451529ec8bcd24f0d8c9c50fd30f9343f"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/dialogs/certificate-uploader/select-board-components.tsx",
+      "bytes": 3078,
+      "sha256": "ccc9d2b5be50edad18c04b66249ae351f0b679c871dc2464130495086b3bdb4a"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/dialogs/certificate-uploader/utils.ts",
+      "bytes": 897,
+      "sha256": "332d62f9c87a67175fea71a8a42907323193a8afbdb1027f12a14522220dc6db"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/dialogs/cloud-share-sketch-dialog.tsx",
+      "bytes": 5741,
+      "sha256": "7fc718a4994c97cd4199e3baa04457e61dac13e5c86496cfc75e1a9025f65024"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/dialogs/do-not-ask-again-dialog.ts",
+      "bytes": 2490,
+      "sha256": "62ae6801f8ab61b4e56a8e4ecc80198d1bd3b6d1c9a3f48b73db1a3fb81d32ca"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/dialogs/firmware-uploader/firmware-uploader-component.tsx",
+      "bytes": 7882,
+      "sha256": "4d0b097b603038e052fcfb96ead014af70d21ef4a8c1950791f69d9519d6274b"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/dialogs/firmware-uploader/firmware-uploader-dialog.tsx",
+      "bytes": 3629,
+      "sha256": "f1317f0e9c05da27bb8cca8dc0b567bdc4c408676f524e5f0d8a1cf1b224909d"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/dialogs/ide-updater/ide-updater-component.tsx",
+      "bytes": 4865,
+      "sha256": "38e98465e5cfa88343dca0369b333afe3f5f5a22b58077c7422a98fe0af416b4"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/dialogs/ide-updater/ide-updater-dialog.tsx",
+      "bytes": 6898,
+      "sha256": "56a6440716149ad7e15d3516b33aae8af0311db853a56aa70329a1d526349008"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/dialogs/settings/settings-component.tsx",
+      "bytes": 27486,
+      "sha256": "e12e5b8e97f6cce1ffe3763f8d3abd4568420a96f08c412647afc3ec82b83e24"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/dialogs/settings/settings-dialog.tsx",
+      "bytes": 7040,
+      "sha256": "3ca205f1e20df1dd52b5be35aa9720f85456f0444a0227a4fb841ae54fab5802"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/dialogs/settings/settings-step-input.tsx",
+      "bytes": 3902,
+      "sha256": "beb90113b338b2efe00e8aa97c9ec57db110f6d88bf6a1d44911721539abb0b5"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/dialogs/settings/settings.ts",
+      "bytes": 12863,
+      "sha256": "c8eb55174dfc2b6ff8b2159196f534aa0d65dd750d14adbae0be73624a9fbed3"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/dialogs/user-fields/user-fields-component.tsx",
+      "bytes": 3535,
+      "sha256": "9df65c9bc61fe6c5938180eaaf23b4809aae1b0951a89fa96037a844d6899d8d"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/dialogs/user-fields/user-fields-dialog.tsx",
+      "bytes": 2595,
+      "sha256": "b9765e9e261275579c6caaaa649430a2cc06a90bb35e533f3f40e591e5bd4ad4"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/hosted/hosted-plugin-events.ts",
+      "bytes": 2902,
+      "sha256": "6ea0e51cdc1573b5e6bd209d4b80f4121e99e2200b2a0690fe18eac11907f95b"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/hosted/hosted-plugin-support.ts",
+      "bytes": 679,
+      "sha256": "efcd140ce39a771c0381ca7820dca97ec518f7e6e9f5bc27ca4795eeae55ebfc"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/icons/arduino-cloud-download.svg",
+      "bytes": 3034,
+      "sha256": "28c94f4a52ba1fd9a3bafdcaa85fed68ad1cd045d7a36bf3a7c6d293db5e057a"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/icons/arduino-cloud-filled-offline.svg",
+      "bytes": 1353,
+      "sha256": "506afc7f8968c920088cd5b276f26c776afbf0affc478f6b5aeed883374fc0fa"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/icons/arduino-cloud-filled.svg",
+      "bytes": 855,
+      "sha256": "8ce2803401b9d2ecc7cc214163096d8b7023fad73e89c15855b5e97fdda0f1be"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/icons/arduino-cloud-offline.svg",
+      "bytes": 2302,
+      "sha256": "51048ea9386ff894cc535a9da94e3e91d795e6945aa805afc706b3e77e11dc69"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/icons/arduino-cloud-upload.svg",
+      "bytes": 2982,
+      "sha256": "8c498f79529c594b828063bb9d2d4591a87e5906dbe923059787bd71796a7057"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/icons/arduino-cloud.svg",
+      "bytes": 1801,
+      "sha256": "285287454723e496f724266a7cf7fae412ac55515dff3254f812a96241fc2ecc"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/icons/boards-manager.svg",
+      "bytes": 1732,
+      "sha256": "d82e7960f05bb62a120c04f396434522a4ec132a4c7b16ea6a5829d712c5d56b"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/icons/buttons.svg",
+      "bytes": 24302,
+      "sha256": "c0e5b89261a223485ecbcc0409864c8abb0f42155eea88cb3e742ec83234533b"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/icons/debug-dark.svg",
+      "bytes": 3505,
+      "sha256": "5713d0f0979194776c633c42d822206aba370d94cf0936b8ff6104208c0ffdae"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/icons/library-tab-icon.svg",
+      "bytes": 968,
+      "sha256": "b695d44dace5dd9189c1783a0492c0caf6eba2f28014413f9e31841c161c7927"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/icons/loading-dark.svg",
+      "bytes": 5152,
+      "sha256": "8759c744b04e6e7a86e2aa91862b03ccfa4d59b965cd5440f0f32e7f54f45bdf"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/icons/loading-light.svg",
+      "bytes": 5153,
+      "sha256": "61d031d1c2969018c1504e341f6fbb96712bd5c4def1a6f93190e7f835385a07"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/icons/mask-buttons.svg",
+      "bytes": 6628,
+      "sha256": "77494242ab6ab9bdbbec18e66e2fdbf1cff21200264d0a3c409b0f63188e5638"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/icons/monitor-tab-icon.svg",
+      "bytes": 721,
+      "sha256": "b8b1d643f5d2f29dff8a37bec9d3304a588a0498c041fe283e86084b460964c6"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/icons/monitor.svg",
+      "bytes": 1496,
+      "sha256": "f2c7931f8739dc8d60a59a46f0a59c7552b289451d448bf7d91b9720586c6b1a"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/icons/plotter.svg",
+      "bytes": 735,
+      "sha256": "28ed6d529677a3f62e40853ec2e69649c080f0e2c40abd2388697d9e027eed7c"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/icons/sketch-tabs-menu.svg",
+      "bytes": 655,
+      "sha256": "a91916e7a1bf59ef6ac594eabf46a670915beb95b0b6614068f7a548d3a54dc1"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/icons/upload.svg",
+      "bytes": 579,
+      "sha256": "523c03a3614e8efa0e5378166aac5afcc2828a7dc69c1e61c488cd4d04257acc"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/icons/verify.svg",
+      "bytes": 471,
+      "sha256": "a780f158c7936bf21d10678c3f6fb5b894eab68539bb4e730b8f8d717223bb01"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/ide-updater/ide-updater-client-impl.ts",
+      "bytes": 2088,
+      "sha256": "da0e62b09fdf47c2e6358f0d1e9d170ccb66574fb4660d4e9494b4a189836350"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/ide-updater/ide-updater-commands.ts",
+      "bytes": 1936,
+      "sha256": "53ce119c0671c3337c5460cd3a2b0249c051e5f446d254ebfb19486e22b64456"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/library/library-list-widget.ts",
+      "bytes": 8724,
+      "sha256": "7f0b5e9bf1404da7acceb074962a4bc312cb2304f3cef3c083a90a8f6cdc6498"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/library/library-widget-frontend-contribution.ts",
+      "bytes": 1659,
+      "sha256": "3b0738a5a14754594ee9e9a5bd7ee53154b52fe104c04a5255278185ae75db11"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/local-cache/local-cache-fs-provider.ts",
+      "bytes": 6034,
+      "sha256": "7e0ac59e8b817bc5c9612e8302a0f63a75fa1ecb10ad70fed88c2063c8fb62c5"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/menu/arduino-menus.ts",
+      "bytes": 7892,
+      "sha256": "b05a6ddf31ddcbfb349e75714dad55daef3959ea22d816f32e1f7940475aa40a"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/monitor-manager-proxy-client-impl.ts",
+      "bytes": 7785,
+      "sha256": "d804edd9784d920986dd425ed2b1a211fcdc637a8a42075457f17828ad93af8a"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/monitor-model.ts",
+      "bytes": 7421,
+      "sha256": "654ad60ad4367d56b14bf68b82f21532a439379e99fa02cf8d2763770689ebf6"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/notification-center.ts",
+      "bytes": 6278,
+      "sha256": "023db816a591d1ca94a78a44a9bb0792952d9f21b0e7414ee5a1f47c68e7e46f"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/response-service-impl.ts",
+      "bytes": 1495,
+      "sha256": "f451f8db6bac9a1ce574f5b0b23bc92edef2aff58cc4aa88461fa1e93b4d5aa7"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/selectors.ts",
+      "bytes": 750,
+      "sha256": "2ae94fc1fe4fbb2cb4b4a0ae8a9d0c29601817b623b366ad128d91696f82cd29"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/serial/monitor/monitor-utils.ts",
+      "bytes": 2243,
+      "sha256": "ae3d4f47c2ecc71db0f9e7d8356fbe58d0a30f631010611a24b67ca5d26af29b"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/serial/monitor/monitor-view-contribution.tsx",
+      "bytes": 7642,
+      "sha256": "d1e15a2eb1b003732098c229c7c21cc84a8109e61a7fa15fb6d6ce61952d7cee"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/serial/monitor/monitor-widget.tsx",
+      "bytes": 8812,
+      "sha256": "74355507d50ae3f61ef8b449106eb56a633dc1f2acce460942778baaf788ccdb"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/serial/monitor/serial-monitor-send-input.tsx",
+      "bytes": 6830,
+      "sha256": "876e1777b345f9c14dd443ae7776b8672f2e09c57d5f7521075ce623443bd2f6"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/serial/monitor/serial-monitor-send-output.tsx",
+      "bytes": 4125,
+      "sha256": "c6ff39e01ee85961e0267a781cd9a50ed4e1ec2d0671d30d0f3dbdb4141ae7b4"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/serial/plotter/plotter-frontend-contribution.ts",
+      "bytes": 4294,
+      "sha256": "d25b5a31433b31e13cc682ae38ab6fe3040c7802cd85e4bea50a611dd33fe110"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/sketches-service-client-impl.ts",
+      "bytes": 11446,
+      "sha256": "6b8b7573ec9f3a34dba1afc4ee0cbe0bf7219153559992bc1c43cf19f4ab6058"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/ai-agent.css",
+      "bytes": 26089,
+      "sha256": "2573f9db13b9e6f6f1884ca841003db2d93d367f92c092f34fb26f9df3b4c70a"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/arduino-select.css",
+      "bytes": 1962,
+      "sha256": "7098934e131b9a7ddab8125b22eca2d86b95a357eb2976009305962cf87ea5f9"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/boards-config-dialog.css",
+      "bytes": 8513,
+      "sha256": "eab1f7392f9e7a95b77536a549e8e022049daf20b24622eb22744f53c0c40c39"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/browser-menu.css",
+      "bytes": 300,
+      "sha256": "5f5bb3a0fd99ad5407ab4e7cde60b8b12f84b5d2115ec6142638d66c9326c14a"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/certificate-uploader-dialog.css",
+      "bytes": 1876,
+      "sha256": "e574ba812ed8324b8984d470a7002e3a7e2ad2ab8e2bf48cb7257142cbd40c4d"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/cloud-sketchbook-tree-icon-filled.svg",
+      "bytes": 1554,
+      "sha256": "694904bca9f1668f57353e2624d6b362f814bb6f9df41be6938a8588a6c69be0"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/cloud-sketchbook-tree-icon.svg",
+      "bytes": 1607,
+      "sha256": "7ff59840c9f53878e3eacb640cd66a0d3871e856e6de51376302af0876de2e77"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/cloud-sketchbook.css",
+      "bytes": 4260,
+      "sha256": "982e62e490afb3c5529e8bb2fd230531dad1b28e98cd6386b50b81670865e70d"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/connected-status-icon.svg",
+      "bytes": 147,
+      "sha256": "eec850a1ea719bd5632306e5388c3e2ebaec0a9644a570ab91f8a2ab5992f839"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/custom-codicon.css",
+      "bytes": 110,
+      "sha256": "f24f41a9c58e68ac459dcee75f78ad5ff0c21d808fecdbc771deac8aa4e02876"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/debug.css",
+      "bytes": 414,
+      "sha256": "05117fece870f8c078995e2e970f31505abb5ac521623c33dcf810ba44e9eee0"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/dialogs.css",
+      "bytes": 2328,
+      "sha256": "f44538f5da6d33751d0f253a40736fd58ffb7fe1bba2b3107c16f7524e03f9b8"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/editor.css",
+      "bytes": 605,
+      "sha256": "64473635a1290f23239d6c0cd804d755b1162735069ed6bd207473d18e994d58"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/firmware-uploader-dialog.css",
+      "bytes": 633,
+      "sha256": "c902250da5f8ab36c813d0276e2792c5c0f5091ef800b76d0b167e7e7820814e"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/fonts.css",
+      "bytes": 12232,
+      "sha256": "a803fc5b45f49150e981b9d2ce0dc09850ea3faecc29567f7d3ddefc707231f2"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/fonts/FontAwesome.svg",
+      "bytes": 168636,
+      "sha256": "a5561023d4ac93e236f9ae7c4d6400dbb4d26d6d4a8f06f11c081c8a4b7e88e8"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/fonts/FontAwesome.ttf",
+      "bytes": 45416,
+      "sha256": "4237f7329435d3ad4227e3432f5e21cfb5dd13abeb8e70c0d20ad0cb72374ad3"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/fonts/FontAwesome.woff",
+      "bytes": 45492,
+      "sha256": "2974dd35db6efbec721e0072f0e5deb39c3778b3693db253643a3c831a7406b2"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/fonts/OpenSans-Bold-webfont.woff",
+      "bytes": 20676,
+      "sha256": "f21a07b8173a59a6cdf3f46d46a4bd1b14e4146d4e1c80a543021a6d69b2fe8c"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/fonts/OpenSans-Regular-webfont.woff",
+      "bytes": 20696,
+      "sha256": "724ffca6332d70f4cbb540b05753e0e5d59a9b25a0eefd2e46fbf841ad41889b"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/ide-logo.png",
+      "bytes": 13170,
+      "sha256": "f27fe4d96c7ebdfbd145a945b984996890518784764eaa80682cc695255d1216"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/ide-updater-dialog.css",
+      "bytes": 3002,
+      "sha256": "5bd193262749d5733e1f088547135d4ff447ec92978abf6ccf50f6e07fc50a0d"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/index.css",
+      "bytes": 4592,
+      "sha256": "a9eb4dce34c062c68aac446504446cf8b3e8f9ce236ff624dab168890becab9f"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/list-widget.css",
+      "bytes": 5265,
+      "sha256": "5a096c242496d3043cec6982c598c497d5da688a3c926370ecaadc9497b7dd54"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/main.css",
+      "bytes": 5597,
+      "sha256": "f298270626815d48fffdd9f80a172f57626e02370f7434fc904cee8903b9a05a"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/monitor.css",
+      "bytes": 2035,
+      "sha256": "2ce8e4da0fbcf1cb2c8753b00f6e60008d1fb7430a0b9139fcca6ebbeb33afae"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/offline-status-icon.svg",
+      "bytes": 147,
+      "sha256": "3b52d2807d6fcb172fd35665218e029b3f082e8d75d292a20826a555fd29e65f"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/progress-bar.css",
+      "bytes": 631,
+      "sha256": "03a40a7c948f3dbf953f3ea8533320165237da3fee1daabb94aae0f498e2a830"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/refresh-icon.svg",
+      "bytes": 1776,
+      "sha256": "30645793fbaee9bd9d9590d917c5b3a3ac41065fa68d89c66e5002b3e8aaf773"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/settings-dialog.css",
+      "bytes": 2201,
+      "sha256": "080e2d440b731897dce6547345d3dd46cdc878e5282503db19aae61ecfffcd8a"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/settings-step-input.css",
+      "bytes": 1113,
+      "sha256": "c8a02764ce50a04cccfd1b2118183a9f717360d08bf357d92b5823fd3c508294"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/sketchbook-opts-icon.svg",
+      "bytes": 577,
+      "sha256": "31f0eb0282c209ed47f2ced3a41dddcb22c1d9d7f5a7fdea9ccd28773de3966f"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/sketchbook-tree-icon-filled.svg",
+      "bytes": 1552,
+      "sha256": "036c6b6ba3e7b97477602d2e168173a122eec08413a2ca59ecd8efe2aca66d79"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/sketchbook-tree-icon.svg",
+      "bytes": 1917,
+      "sha256": "6cf8e9d5843e55bfb94b26574d29514e1b885d3c8427aa24de1b8bcba181a6a2"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/sketchbook.css",
+      "bytes": 2283,
+      "sha256": "37fc3e369b482e055ea2065dd29a30ce3c6a6e8b128a7f03f695321467b87746"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/sketchbook.svg",
+      "bytes": 745,
+      "sha256": "b40b4152d210272c282c93bf66238d582c051435f81c6edaa67f86d943ff404e"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/status-bar.css",
+      "bytes": 185,
+      "sha256": "439f3805ed52779cae5a55b5487078c24801d7423a053e008c98a53e826fc264"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/terminal.css",
+      "bytes": 178,
+      "sha256": "8b2bf5619bf4c4c16b50222d4306a2c92958ff0a207f1d6107bbcdee1020c18c"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/style/user-fields-dialog.css",
+      "bytes": 618,
+      "sha256": "2006ba6045aaa939b2138966ae1a33f967eba8a4afc5ecb1eca2c5812b87e0b1"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/core/about-dialog.ts",
+      "bytes": 313,
+      "sha256": "3ab694f54920b56d23a663f7a79f2304722732dc185529716c4d087febd2dbce"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/core/application-shell.ts",
+      "bytes": 3959,
+      "sha256": "228f07d99b4afedc4c52b333d314db46fb74daa7613a5640efd4c77112943c9a"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/core/browser-menu-plugin.ts",
+      "bytes": 471,
+      "sha256": "923b5e557b782c511279368d47515dc32bf6cd20b57fa5f390e654962c385010"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/core/common-frontend-contribution.ts",
+      "bytes": 3286,
+      "sha256": "67e682ed1ea7549ed9bf03c4743ed749b87f7d6adde0002fa5dee14b216ab178"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/core/connection-status-service.ts",
+      "bytes": 10883,
+      "sha256": "01dc95927ec63505c89bbb8ec805ef61f87ed1a175104632e0a0a771cdc6028e"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/core/frontend-application.ts",
+      "bytes": 1555,
+      "sha256": "672acef0bb3d68e3abce48dc027ae0c7cf5cc966b7a51e9607247a1b53b419ad"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/core/json-schema-store.ts",
+      "bytes": 595,
+      "sha256": "a9b5e122de6ea310469a46d275f2f12ceb5c39ea8535cdc195174a6fc6dd5618"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/core/shell-layout-restorer.ts",
+      "bytes": 9051,
+      "sha256": "83f47c1177aa7b2cd846332aecb4618d191a063d6b4d433b712487a0e167d27a"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/core/sidebar-bottom-menu-widget.tsx",
+      "bytes": 3015,
+      "sha256": "3bbde65833436c07cc4c33c768aa8f0a361c946fccf199d38f2f29c4bc276de3"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/core/tab-bar-decorator.ts",
+      "bytes": 1774,
+      "sha256": "9fa32695d05240d8988b4cb4b17bcdcab2e38328a9879b376965adb97a131e6b"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/core/tab-bars.ts",
+      "bytes": 1283,
+      "sha256": "1ec61a9f848cf17c82a05e5bb9043cce6eb99b46fc3a8041758904d50d17a9f7"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/core/theming.ts",
+      "bytes": 6159,
+      "sha256": "70b6e54f76f03dbb3f5d9d3aee0ff85e7a46ddbc8a2a4fda5b2c1d5a72afea3b"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/core/widget-manager.ts",
+      "bytes": 2528,
+      "sha256": "0186516bfc1c6961e21cf019d242b028259d00be876cf767c19298841c3c6187"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/core/window-contribution.ts",
+      "bytes": 428,
+      "sha256": "71d1a32b1503a50ed7f54c02afd75974eb40ab0c5b84a893912abc7710f5aa5c"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/core/window-service-ext.ts",
+      "bytes": 384,
+      "sha256": "ad529e9b29f743a4dc350068a088b5458f0a25e3c2e46f413feaed75bf8b004c"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/core/window-title-updater.ts",
+      "bytes": 5585,
+      "sha256": "d6d1c58de7a0eee32775a0ee48a309961353c479bd469483b62791c19e6d6202"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/debug/debug-configuration-manager.ts",
+      "bytes": 6279,
+      "sha256": "c8b980cd12f20042314a8b9e9c215abdb1089dcff3b6729f41c22d34242e7a7d"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/debug/debug-configuration-model.ts",
+      "bytes": 1952,
+      "sha256": "a024862a16c1610a72be5fcbf259b9a9110f37235305669c43b3a3f0c2f069c3"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/debug/debug-configuration-widget.tsx",
+      "bytes": 2877,
+      "sha256": "c326188390e5de23ed6999e202c9a5ab9981fdd0b85443fb50855684578e9b9b"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/debug/debug-frontend-application-contribution.ts",
+      "bytes": 744,
+      "sha256": "210f9c70e8c3374e6433e33453380323f810519ad73348e6e78743823480124f"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/debug/debug-session-contribution.ts",
+      "bytes": 1635,
+      "sha256": "58efa33bf3b691e2fe2286de631898ecf59dcdf9596d1a7bd607ab3e6d0719fe"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/debug/debug-session-manager.ts",
+      "bytes": 1568,
+      "sha256": "089d706ca111b7d58f75f302ceabea11399573c1988ee67b13f972cbdab5335b"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/debug/debug-session.ts",
+      "bytes": 512,
+      "sha256": "a4710521ffa2584874d494ed2ed46cbd08186007d1aab66c64afbad75ec60f6a"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/debug/debug-widget.ts",
+      "bytes": 2023,
+      "sha256": "39afbfacf629c936af61587a57f0df4af86d1cbbfd6ffb07afed972d356974e5"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/dialogs/dialogs.tsx",
+      "bytes": 1775,
+      "sha256": "ad50b4193a5d7c3a814c910aac7b822effe6362523eb76e9500176bd30137def"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/dialogs/widgets.ts",
+      "bytes": 1995,
+      "sha256": "a9f8b5796a2d5a216103864c23963c6432456cdff1ac5ccee4b249c55a0ec8c8"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/editor/editor-command.ts",
+      "bytes": 890,
+      "sha256": "3d3bf07b1498bea87fb9166af20bab38e31779cadd2fd0353ce4c2797fabef95"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/editor/editor-contribution.ts",
+      "bytes": 795,
+      "sha256": "2ad41a12d7bd3671833809177019d8377ea9779091d1f0ef28154e23eb74f100"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/editor/editor-file.ts",
+      "bytes": 550,
+      "sha256": "3e7cb2581ad3be643684e2a537daf977776287dc0fb9fb120966a324cc73bf35"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/editor/editor-manager.ts",
+      "bytes": 313,
+      "sha256": "e614f32ce35a947b0a75df370275ad9b2e8b3ed6f6ab8332f8e3f6f6043e05ec"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/editor/editor-navigation-contribution.ts",
+      "bytes": 455,
+      "sha256": "3bf44aedc9f19acb629136158f5196cd0ee7cf4aac34a0773657e317ce0d05ae"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/editor/editor-widget-factory.ts",
+      "bytes": 1681,
+      "sha256": "ba4b20d158e3d47c65966453a246b2e8cf7b7fdd041a70346499acbef222586a"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/filesystem/file-resource.ts",
+      "bytes": 4405,
+      "sha256": "206751686a0605ed5f27ab9ef47ef3235d485541afe71f136a6d2981d27e64ca"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/keymaps/keymaps-frontend-contribution.ts",
+      "bytes": 818,
+      "sha256": "05085722554eeff855406a44e9340afe124d3123cb25a69c26597401d5b9fb5e"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/markers/problem-contribution.ts",
+      "bytes": 950,
+      "sha256": "a511b82610b5a9f91cc0a0ff582316a0e8cb85650f4a8a5946332ea7d0fbe834"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/markers/problem-manager.ts",
+      "bytes": 2042,
+      "sha256": "841643d06f37f3db8f6ae84a85cb3c8ef335a35fe0d210be03c2e0963efd08c5"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/messages/notification-center-component.tsx",
+      "bytes": 2482,
+      "sha256": "6dab8ea23f931e8c5d3c5974abe439af45318c6838e2ea88990ee2acbbc60c7c"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/messages/notification-component.tsx",
+      "bytes": 3900,
+      "sha256": "11cce43cef63d4a7e20d315fa392164cff9aebbaf2c107a921487b3b1bd42bae"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/messages/notification-toasts-component.tsx",
+      "bytes": 931,
+      "sha256": "c0638e2fbe1deb6fc346fb3ee5c81611a50ba773a39f0a194f846a160505ac77"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/messages/notifications-manager.ts",
+      "bytes": 1747,
+      "sha256": "408bf92d327aba4250a03bd2144aff5b4c3e02d4cfb04d062829e28c5cc2ccb6"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/messages/notifications-renderer.tsx",
+      "bytes": 1324,
+      "sha256": "74aa87eb163e4c5d211723b9f27e830a3b32e6a91f13381dedbd254b252b545b"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/monaco/monaco-editor-provider.ts",
+      "bytes": 4584,
+      "sha256": "37d98328747368619ca3944ce2f921ff762ea42c73fbdfa339b9c32a1c3ccc45"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/monaco/monaco-formatting-conflicts.ts",
+      "bytes": 824,
+      "sha256": "4f11749b97eec1ba1742a44a371feb7bfff4f7f854fabb44f31a68625a53e3bd"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/monaco/monaco-menu.ts",
+      "bytes": 1598,
+      "sha256": "c0a1acde20d756e867db8ebb7bab19af01f4d77e4828530dbaa9c4dd6b3fca8f"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/monaco/monaco-status-bar-contribution.ts",
+      "bytes": 405,
+      "sha256": "45c1792cef09b45fe673876021723c4d95585d19250d64b71b6197ba6bba3cc5"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/monaco/monaco-text-model-service.ts",
+      "bytes": 2999,
+      "sha256": "b3c1e040a78fdfe2c7d6da918dbc02b20075bd100a7ebc60fbb19d2c15e987b8"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/monaco/monaco-theming-service.ts",
+      "bytes": 7822,
+      "sha256": "ee2dfe0af3391d4caaa73f0e9aa0d4b415ab5655da553d1b2ff8ec6e3f31753e"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/navigator/navigator-contribution.ts",
+      "bytes": 2099,
+      "sha256": "f8aeaf3b46a3fab52c8b73206106a009a06574683940dfaa3233f263ca7693e9"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/navigator/navigator-tab-bar-decorator.ts",
+      "bytes": 649,
+      "sha256": "1e58547eebb549a0caadff558433e4a35aaeeabf7405f3c11081601d1f37c069"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/outline/outline-contribution.ts",
+      "bytes": 602,
+      "sha256": "654576ebb063d022d5ab4a6b70cedf9758ffe460d66d3ceeb66f844ea7fc9241"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/output/output-channel.ts",
+      "bytes": 2350,
+      "sha256": "4b72713f029fca13aa73f620530213b46d0077e157c211ef28ee438a4b70d197"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/output/output-editor-factory.ts",
+      "bytes": 1051,
+      "sha256": "9e6b62b7e653fc5a2b5b2d9e0f6f296170ae63a35648e8f90bc01bf2a7a67d4b"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/output/output-toolbar-contribution.ts",
+      "bytes": 899,
+      "sha256": "6346a4b58edb0b50796cc65c554291b02bd12df0e25555fcf2a052a3fcef1ad9"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/plugin-ext/hosted-plugin.ts",
+      "bytes": 2576,
+      "sha256": "fb91c58c74b69174642752768e80ed9ddb92cdfd805399697e6d6af8d17f6337"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/plugin-ext/output-channel-registry-main.ts",
+      "bytes": 1630,
+      "sha256": "6728ffcf9df1c2ff65d4c7272f2b371bb774c2b25399fb66c44a6e55cef68d4d"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/preferences/preference-editor-widget.ts",
+      "bytes": 781,
+      "sha256": "04e01ed8831817063af440b310119514bfb1dc54428f8b6def5d0033db2b0f0b"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/preferences/preference-tree-generator.ts",
+      "bytes": 1653,
+      "sha256": "dbf415bf728aed3947e0d3cc8ec7f0e7a521aad257ec7a899e4ca576459f454d"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/preferences/preferences-contribution.ts",
+      "bytes": 1071,
+      "sha256": "ba1ffcdfd60e3ab8a570ff8d4b7a679c769bb450533a2108a2471f7b9e448c1a"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/scm/scm-contribution.ts",
+      "bytes": 512,
+      "sha256": "3731affa274eda31b56c58040ff7662c3c39b93fee6ca90a6fdc388729013b69"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/search-in-workspace/search-in-workspace-factory.ts",
+      "bytes": 705,
+      "sha256": "5b7e453d931dd535ef53fe18ab02317eb9817830aff305ff85dc574aee6178c3"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/search-in-workspace/search-in-workspace-frontend-contribution.ts",
+      "bytes": 1024,
+      "sha256": "ba4f670d6f57aca76977d04bc385d23f8462c332fe7f88d7f79361bcf89c0fcb"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/terminal/terminal-frontend-contribution.ts",
+      "bytes": 767,
+      "sha256": "3e8f3ea1204cad7b092db73da66f27b6c3078d1277a09e2f487044bb8aff60fc"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/typehierarchy/type-hierarchy-contribution.ts",
+      "bytes": 1302,
+      "sha256": "dd1e3119c842da2f7c700616ec69470abf81fd68b499fde231e36e24765f3c95"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/typehierarchy/type-hierarchy-service.ts",
+      "bytes": 353,
+      "sha256": "93a8f1c6e99518a3041a77b7bcd825e9d965e7f467da324ec26ddfd59fca2b02"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/workspace/workspace-commands.ts",
+      "bytes": 15696,
+      "sha256": "ed2ac536b0880b6600fe5d1aa704036e8d6389d0e5b791fdc0f1de831227bcdc"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/workspace/workspace-delete-handler.ts",
+      "bytes": 1394,
+      "sha256": "e0a18c1bb260a5abf37f1654cc086178a71563e361ccc5b7c6536c30f57601ef"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/workspace/workspace-frontend-contribution.ts",
+      "bytes": 1902,
+      "sha256": "0b6db256b8befbb9e6c9d44f026050376be5b7af9b62e8cc83b8220e5d913bcb"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/workspace/workspace-input-dialog.ts",
+      "bytes": 6588,
+      "sha256": "fdeb37b37bce5618a2254e8b3a12bc2868076b1cfd5fd01fb20180ddaabb9ba0"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/workspace/workspace-service.ts",
+      "bytes": 5613,
+      "sha256": "dd062b59c0ba535568fecd2239e599cf573f326b6091b922882a486b789ca125"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/theia/workspace/workspace-variable-contribution.ts",
+      "bytes": 1736,
+      "sha256": "e776afb9115108dd815ac9203d143966495047ba3bba43b869c296a40ded3ade"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/toolbar/arduino-toolbar-contribution.ts",
+      "bytes": 1829,
+      "sha256": "771688411d3c5af2ca9695feffa0619e52388ddae3e66ecd3aa6ac7b55676147"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/toolbar/arduino-toolbar.tsx",
+      "bytes": 5606,
+      "sha256": "bab95acecc2d3e369691b2308e15f084b81bd5fef1cddbd7fa549b36c57edd22"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/utils/constants.ts",
+      "bytes": 114,
+      "sha256": "29f97821c561df008d846472ebeb1086d586a294df37ca6e3162d564083b9e3a"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/utils/dom.ts",
+      "bytes": 2478,
+      "sha256": "e533ae684f49d3a325ebf24c630e53799135c256ca478ad521ed5c9d6a931edc"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/utils/window.ts",
+      "bytes": 231,
+      "sha256": "fde74f00f501120b55999e853eed6a482b354c6ec0f7076dc070aa70062aeb39"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/arduino-select.tsx",
+      "bytes": 1860,
+      "sha256": "b453024734b49c338ad1a41e76ca92dfd06b8ce0f4d337acc4ebca72c902818f"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/cloud-sketchbook/README.md",
+      "bytes": 68,
+      "sha256": "28b01abd263c0899caea139dec8064e97f68178744f449fa8dd38e49975107aa"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/cloud-sketchbook/cloud-sketch-cache.ts",
+      "bytes": 1517,
+      "sha256": "4db5d12ccd6d892243bd5beff3e51d06a6b990d70dc6b36083db1168da9cd42c"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/cloud-sketchbook/cloud-sketchbook-commands.ts",
+      "bytes": 2466,
+      "sha256": "1eaa905417cbebfb29d5a160947703331baeda81ca6fdb3f727d7d330fdc68bc"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/cloud-sketchbook/cloud-sketchbook-composite-widget.tsx",
+      "bytes": 2892,
+      "sha256": "e22045b641ece12f7dbba0ad1972f225b26f2219c61e934a0b7d5c487d64bbc8"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/cloud-sketchbook/cloud-sketchbook-contributions.ts",
+      "bytes": 14914,
+      "sha256": "1d99351e7538eca77e7dafbf0d85e90b54550e2d27b24ce3538b439d3a2e5532"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/cloud-sketchbook/cloud-sketchbook-tree-container.ts",
+      "bytes": 1342,
+      "sha256": "445b288e7e75e8264c6afad903d1bef411b948eae5543bae8fc8635ee810bb4f"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/cloud-sketchbook/cloud-sketchbook-tree-model.ts",
+      "bytes": 6547,
+      "sha256": "a3b58f72a7831a880df40b09ce24b039910c9bb4286575a0718db367d2bcfdc2"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/cloud-sketchbook/cloud-sketchbook-tree-widget.tsx",
+      "bytes": 6415,
+      "sha256": "861b7e1bf191acb919e02585ba6e5e91a041c7daf667393e04f5adab7e8a1d53"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/cloud-sketchbook/cloud-sketchbook-tree.ts",
+      "bytes": 22341,
+      "sha256": "3713c631eabb1d24a5763960681dc557bfb3023985a57b2ceaee33c8605ea0ee"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/cloud-sketchbook/cloud-sketchbook-widget.ts",
+      "bytes": 1934,
+      "sha256": "bf631e71d24e84b35e1d8751e40fe0749ea87e26362b6c1bb5a81bf903f68d4c"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/cloud-sketchbook/cloud-status.tsx",
+      "bytes": 3227,
+      "sha256": "35ed7fd3a9a5fa43b7f07cfdb85482ce091a869b25da07fa3536a80006a093d3"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/component-list/component-list-item.tsx",
+      "bytes": 2951,
+      "sha256": "9f9ea963449d1198ebe599bba409a7e7a844a12fdf6bc22ff8c59620e8f69543"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/component-list/component-list.tsx",
+      "bytes": 1579,
+      "sha256": "d728458ee53fa262e962a8e50b4fa5a10e3f1150dacc44c8bd82d5b1148c6969"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/component-list/filter-renderer.tsx",
+      "bytes": 4080,
+      "sha256": "a6b1ff09d6a448aa09b0f14373ba8037d8066569c9578bdb1c5c84582944d656"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/component-list/filterable-list-container.tsx",
+      "bytes": 8000,
+      "sha256": "48a02cfe5b7546a6d7cb31ecb5cd1f1416420296e68f766643c55ffcc128249c"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/component-list/list-item-renderer.tsx",
+      "bytes": 22653,
+      "sha256": "afa47f13c21e9d36c96972894f093bedbbe06a649642eaa11db1c2b604f85cfb"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/component-list/list-widget-frontend-contribution.ts",
+      "bytes": 2275,
+      "sha256": "b5cecef98a2d8b5a7fee27185c6bdb20d37ac66fafd0e2b3220d75bedcdf1357"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/component-list/list-widget.tsx",
+      "bytes": 6394,
+      "sha256": "d3bc789702d6a08ed41930a1834f11369f6386c146990951bb6f0e3001c62d22"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/component-list/search-bar.tsx",
+      "bytes": 1387,
+      "sha256": "edec79ca6ad69cea197ceb6096bc4fa2bb1018988468acc45003fa8e7298171a"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/sketchbook/create-new.tsx",
+      "bytes": 499,
+      "sha256": "6b8d675d4bffcdad5f9065a82b9ed88314cacdf6cd972bca1a39ea2fb7809339"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/sketchbook/sketchbook-commands.ts",
+      "bytes": 1111,
+      "sha256": "4478537c2a2548ff2cd5fd6a3a43a419dcf23ff69b7e445db93edfdd6f1fae0b"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/sketchbook/sketchbook-composite-widget.tsx",
+      "bytes": 3480,
+      "sha256": "ae72ac8572e6b533c2bb75855151b73328caefabf4cc0e51bcb5c2944bd44bd6"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/sketchbook/sketchbook-tree-container.ts",
+      "bytes": 1301,
+      "sha256": "61171c1cf765eabd494ac786a5e1e9fa9677f63788a1f276b0c597a3258ec0f5"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/sketchbook/sketchbook-tree-model.ts",
+      "bytes": 10541,
+      "sha256": "ce52c561010ec906653d67465a1239c5eaf63479ab6917c6e26c6571971374c1"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/sketchbook/sketchbook-tree-widget.tsx",
+      "bytes": 7303,
+      "sha256": "e90b0ddc550ca9de86120a99b3cd992891b947a07761b602c4c5f0766465a3a6"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/sketchbook/sketchbook-tree.ts",
+      "bytes": 3688,
+      "sha256": "bf90469da2f250f5623c52a0bce78ed6095a9d466a45eb82ed6cd0e8fc411bc8"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/sketchbook/sketchbook-widget-contribution.ts",
+      "bytes": 9498,
+      "sha256": "c8116ab84fa40a0f2ab8c48111aeaadbf19f582907909de4ed0f11be805de058"
+    },
+    {
+      "path": "arduino-ide-extension/src/browser/widgets/sketchbook/sketchbook-widget.tsx",
+      "bytes": 5531,
+      "sha256": "e286d29ac669c291bfce0a5a6797e75198ae227230bc864ac104e448b9a64c27"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/ai-agent-intent.ts",
+      "bytes": 3189,
+      "sha256": "045a87a8c6502caffbbbf745472c6a1672b1548b1c71e11de865b7654434842d"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/ai-agent-prompt.ts",
+      "bytes": 11368,
+      "sha256": "1207e250d42f2181aa6d88a2c940d8f86497ed0137ca7c2855227bb6c375833f"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/ai-agent-reasoning.ts",
+      "bytes": 1486,
+      "sha256": "bb01d2a0f2ecfc70cee24a9fdad1a73b2ef90280b3b7a47866fa0885536bc513"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/decorators.ts",
+      "bytes": 1979,
+      "sha256": "8ccead531a919073f8d89253d444b3c6b50f101bae7b1104ac6fbe8005da4f61"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/main-menu-manager.ts",
+      "bytes": 340,
+      "sha256": "a7af21a35713a0eca030de6aedf15ca0901cf935c361328ed4a1148146519727"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/nls.ts",
+      "bytes": 1403,
+      "sha256": "38680473b280319a46c439f2571afbe3ad9b6b1cc096b03f33b744c1e04f6b72"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/protocol/ai-agent-service.ts",
+      "bytes": 4768,
+      "sha256": "c1abc680ed12a0f1aaf77cc1bb6bdeaa5476f3916e236ea1be667a6ca9be1acd"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/protocol/arduino-component.ts",
+      "bytes": 1344,
+      "sha256": "5ee15bbb421a74f11d925ff4cba2572ee5b7954855a30a409254f2e9aaaee5c4"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/protocol/arduino-context-mapper.ts",
+      "bytes": 3017,
+      "sha256": "c1c5f31c5edf737a7b024a20fca8e14f184e105e07ebaeae46229cb03e4a3f48"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/protocol/arduino-daemon.ts",
+      "bytes": 626,
+      "sha256": "c6045e5dbd905228c5043811e399ba19b5a54893344395f12c0a4aecfbef5aec"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/protocol/arduino-firmware-uploader.ts",
+      "bytes": 835,
+      "sha256": "b6a51c0dd98baef05c8d1327299c16eee28ba871e8686f6f4495a86e1db5a059"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/protocol/authentication-service.ts",
+      "bytes": 1354,
+      "sha256": "af6f6d9a81914438d124ad97873b6bb12dc1b686a6aa95f9720982d20a5db878"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/protocol/board-list.ts",
+      "bytes": 21970,
+      "sha256": "3e84c4e4b311e26ed02f4228430cc330cb3557b4abfb71195e3254a71ce10f5e"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/protocol/boards-service.ts",
+      "bytes": 31363,
+      "sha256": "52a10165be01eb0828269827c778d69875b954712b839d49af9e0d8f51a4ec59"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/protocol/config-service.ts",
+      "bytes": 5024,
+      "sha256": "0808d4c660370fa64d8a0085ff063e5ed57bd9e0d57b5d6d3f9591678a074ba5"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/protocol/core-service.ts",
+      "bytes": 8478,
+      "sha256": "902c97eec9029fe94ad0255327d7042162adb886d7c85b74b383daf95daa0fb5"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/protocol/examples-service.ts",
+      "bytes": 564,
+      "sha256": "171bbd7b79ded6ff1f4f3fad7a2492f0c7bd3e7c9c2212e31a88698cf8678014"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/protocol/executable-service.ts",
+      "bytes": 267,
+      "sha256": "de5113a1d019f73bd6214a2b31934c17f76df604c5fb2cf9730e9cb11536588b"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/protocol/filesystem-ext.ts",
+      "bytes": 199,
+      "sha256": "a70a5bb8ca764cdff38d2bfb60eebb67a731230a273428ff3ac8964557d75b39"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/protocol/formatter.ts",
+      "bytes": 510,
+      "sha256": "109da6d1cf594962167a0b4461a838e813af8417089241d843ebc3ceeb212135"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/protocol/ide-updater.ts",
+      "bytes": 2333,
+      "sha256": "466db08fa714f41c22b40ea87931b561cd28f24ebbaceb0989a6510db3a9ace6"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/protocol/index.ts",
+      "bytes": 572,
+      "sha256": "8f10f07e335448d42ea1e9ce8771ba8da945fb07b5701b26145a324cb11828d6"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/protocol/installable.ts",
+      "bytes": 5843,
+      "sha256": "0f8a6624f7f27b834f26330059c3960f2c94ea7878d5535665d5e1a932bc4a3f"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/protocol/library-service.ts",
+      "bytes": 9010,
+      "sha256": "8b96370d2aca557510999221bbc05b4d2d1c6bfda35d6460a22739d263c1f160"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/protocol/monitor-service.ts",
+      "bytes": 7539,
+      "sha256": "4752d14ea2ff38aa8b5e3ff8579b8491024ef54b651f8b3f0e92aa34b1e16694"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/protocol/notification-service.ts",
+      "bytes": 2930,
+      "sha256": "96efe4a8e49226adf1b6c0ae0273eacc54545b2361f48c7be17bd6c3a232f31b"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/protocol/progressible.ts",
+      "bytes": 2135,
+      "sha256": "416000e8ffdb1bf731b713334e0c1a964e0772c4f30e6c45eed847b0fd088a5e"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/protocol/response-service.ts",
+      "bytes": 1441,
+      "sha256": "606d572a256e512e79969d65e963e363ca2b8cdbf95004c0097f36816f1917a8"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/protocol/searchable.ts",
+      "bytes": 2241,
+      "sha256": "db4b28e6d1e1ec8d91ae1c3520ffa2e4e20c5ec2e8432df4fd17240f0d0567eb"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/protocol/sketches-service.ts",
+      "bytes": 17556,
+      "sha256": "d9d05e473792e76c15535a55dbf8634318eddf8d8d57855fd6ed6474447737af"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/protocol/survey-service.ts",
+      "bytes": 260,
+      "sha256": "e27ab2dbf46778f6b8ff313ff15aee615454fbdf837bcfb93d592ff6fddaf2d9"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/types.ts",
+      "bytes": 160,
+      "sha256": "1daa881f0cc1349b5cf46b7e6f69447a5cbeb2566d79fa1e79b0d7ee79269ab4"
+    },
+    {
+      "path": "arduino-ide-extension/src/common/utils.ts",
+      "bytes": 1399,
+      "sha256": "33ed88f124c99152fab906124edb540c4d45a3a948f9f416291dbd3380dc0843"
+    },
+    {
+      "path": "arduino-ide-extension/src/electron-browser/electron-app-service.ts",
+      "bytes": 838,
+      "sha256": "e337089131f1bd3b9aa4fa0ef5db8ac16c2ea1dc1a25cff642ee7f3243a63f35"
+    },
+    {
+      "path": "arduino-ide-extension/src/electron-browser/electron-arduino-module.ts",
+      "bytes": 589,
+      "sha256": "c1ac6496f821ef00ca6e65c05bfe78f0fff11942a3febd5b39a2507c2bc389bf"
+    },
+    {
+      "path": "arduino-ide-extension/src/electron-browser/electron-dialog-service.ts",
+      "bytes": 853,
+      "sha256": "c8f17417fe5c54c420cdcd1af16125f594f448913159e78e3d3a1a72016a4097"
+    },
+    {
+      "path": "arduino-ide-extension/src/electron-browser/preload.ts",
+      "bytes": 4501,
+      "sha256": "aaeb56bef65ffe95832bb725426d9034e35bd1d3bdb2ebd4498780e25e921147"
+    },
+    {
+      "path": "arduino-ide-extension/src/electron-browser/theia/core/electron-context-menu-renderer.ts",
+      "bytes": 2151,
+      "sha256": "08531653faf8449138ce7846ad0eb7d11ef7637c78dbb9b0798791b0ad7cdc56"
+    },
+    {
+      "path": "arduino-ide-extension/src/electron-browser/theia/core/electron-main-menu-factory.ts",
+      "bytes": 12577,
+      "sha256": "3f17afa3f7dc1b320538cc6965d00902dfcb44eb7067bdbd649c33d26982e5e0"
+    },
+    {
+      "path": "arduino-ide-extension/src/electron-browser/theia/core/electron-menu-contribution.ts",
+      "bytes": 2558,
+      "sha256": "f8a99b25f1b9eceff16c8c49c0281e6d4376ff7ffe0b618a9211292b9f345753"
+    },
+    {
+      "path": "arduino-ide-extension/src/electron-browser/theia/core/electron-menu-module.ts",
+      "bytes": 1373,
+      "sha256": "44d59e444001d133ad6f46400b175c86a71ffbf2de8af1b06221ebfadc0789d9"
+    },
+    {
+      "path": "arduino-ide-extension/src/electron-browser/theia/core/electron-window-module.ts",
+      "bytes": 556,
+      "sha256": "eec5833457de6ebb7b79a7e9b6bc5466b307e429e2aaec7c52cdc88107befa30"
+    },
+    {
+      "path": "arduino-ide-extension/src/electron-browser/theia/core/electron-window-service.ts",
+      "bytes": 1996,
+      "sha256": "8c089b91d57520a0d026dcbf2ecf543af79f7ac7b23861ad697aa61baadc8a84"
+    },
+    {
+      "path": "arduino-ide-extension/src/electron-common/electron-arduino.ts",
+      "bytes": 4224,
+      "sha256": "14257d8947d11892943cf370688ae36cf0c44860c1842859e244620f30e0e40f"
+    },
+    {
+      "path": "arduino-ide-extension/src/electron-common/startup-task.ts",
+      "bytes": 1338,
+      "sha256": "f4fb81bc6cc325bf32507538d35b67a2bc362c7e6dc6751b3734c1572fc2d063"
+    },
+    {
+      "path": "arduino-ide-extension/src/electron-main/arduino-electron-main-module.ts",
+      "bytes": 3085,
+      "sha256": "782cdc7d33fcb21b93b38c0c93063cf58cf5f35173645675711af7dcfd3e77b3"
+    },
+    {
+      "path": "arduino-ide-extension/src/electron-main/electron-arduino.ts",
+      "bytes": 6083,
+      "sha256": "3f5556b56cb5dd9944f3262556f7f3fc22928952b9b2239603886509341d51b5"
+    },
+    {
+      "path": "arduino-ide-extension/src/electron-main/fix-app-image-icon.ts",
+      "bytes": 1196,
+      "sha256": "b1591ce733b6f90e68f10531de3867bb0c0ebe6f3ec2ad5d6c91482930bb4304"
+    },
+    {
+      "path": "arduino-ide-extension/src/electron-main/ide-updater/ide-updater-impl.ts",
+      "bytes": 4418,
+      "sha256": "51738f35ae7d1524f380083abe94cd78aa2ea514c0c7f459dfe63981786185a5"
+    },
+    {
+      "path": "arduino-ide-extension/src/electron-main/theia/electron-main-application.ts",
+      "bytes": 33681,
+      "sha256": "a37cb4a444fbd3643fc57cf96196c928c427f24b8cf7a26944f6df3dbcf1d5e3"
+    },
+    {
+      "path": "arduino-ide-extension/src/electron-main/theia/electron-main-window-service.ts",
+      "bytes": 1920,
+      "sha256": "84ac394cdd6c8cce242ba209cab739ee5ac3e235be261253e3f40c30189ab487"
+    },
+    {
+      "path": "arduino-ide-extension/src/electron-main/theia/theia-api-main.ts",
+      "bytes": 1334,
+      "sha256": "247f9f8542755014157633be2eaf4d1bb0d431b69fa0441f45d004292ccaeb09"
+    },
+    {
+      "path": "arduino-ide-extension/src/electron-main/theia/theia-electron-window.ts",
+      "bytes": 1412,
+      "sha256": "ba44209378df9b77d8e860cf60479efb7cdcaefc0eb4f9655d379a5cd7b9c1bf"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/ai-agent-history.ts",
+      "bytes": 4283,
+      "sha256": "ab0f7e6a1a5ed5525267b8958f2fdbac918d77562321c8742d55e97ef7c8ff92"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/ai-agent-privacy.ts",
+      "bytes": 1291,
+      "sha256": "2bb1fa68c5a0ea0013a3d4ccb63559bf1eeb9a4e4213dfa706bd65986655bd6e"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/ai-agent-provider.ts",
+      "bytes": 14061,
+      "sha256": "e087fa1de610410467e7c8eaeb1851288c1aa50b37c1667a20ef9470ce8a49ee"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/ai-agent-service-impl.ts",
+      "bytes": 34778,
+      "sha256": "26f5e0f7f7322c102de6022d7708c854a8eeb45edf3ceb3ca70f1732c8cb7d6a"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/arduino-daemon-impl.ts",
+      "bytes": 9503,
+      "sha256": "ed8e1f6b5c18f37f1caf60aa1e5169cf3f31073315c40eef9d5f2b1ef8658aa9"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/arduino-firmware-uploader-impl.ts",
+      "bytes": 2729,
+      "sha256": "0d71529f357a67a3115a4d0cec4c3c58f0bd154138701e04223fc4a0ac15d645"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/arduino-ide-backend-module.ts",
+      "bytes": 18790,
+      "sha256": "31d6675b68f51b7e3f3eb87547c6409a069c6ffb672e44c7c860d7a8bd3c3aad"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/auth/arduino-auth-provider.ts",
+      "bytes": 10427,
+      "sha256": "a12576d6d951661593184e1cdbd49bbbc55d4a062892d6b0df3a0f29757732ee"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/auth/authentication-server.ts",
+      "bytes": 1856,
+      "sha256": "183d6a4c0f10569af84ae4a71f0a0b05913b035d79d56b05de46b14fafd1aee7"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/auth/authentication-service-impl.ts",
+      "bytes": 2704,
+      "sha256": "7ac0b5e939dc5262b4f76b5d91a0867430678067f5d52aeb30da611fee7ea260"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/auth/body.ts",
+      "bytes": 8150,
+      "sha256": "a1e24843da6d54ea98ebb7eced5402b7f458a3488612067989df4a12b9915442"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/auth/keychain.ts",
+      "bytes": 2004,
+      "sha256": "e8b327135fc3c6a0907095fa0d2e0ffe4056948542d446f527473b91625da5f6"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/auth/types.ts",
+      "bytes": 771,
+      "sha256": "98a81ecd3fcc52210115c2998dc12a7e5dcba9a6df3de6dc3ae997a6fabbe991"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/auth/utils.ts",
+      "bytes": 3576,
+      "sha256": "bb6f850f6ab689d02c5619cad867c7e98afedbe48dd011e6140b48bf9f19753b"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/board-discovery.ts",
+      "bytes": 11110,
+      "sha256": "13137ad1f7c4d1db98556fa7cce9320763c7db18020e11f62527ea2a903facc5"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/boards-service-impl.ts",
+      "bytes": 20808,
+      "sha256": "11343a5d06544befa0b0d5da8e6d5cc8c44ee6940340faa1dbcd8113018d2a7f"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/clang-formatter.ts",
+      "bytes": 4275,
+      "sha256": "759701e35629630fc4f611782b756c59882b245320bfd7eeb29669b145784c1b"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-config.ts",
+      "bytes": 3093,
+      "sha256": "3e3942ddf033582b4d420951ca4b8f3697046c58ac75e09eeaf028a3e798f946"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-error-parser.ts",
+      "bytes": 6799,
+      "sha256": "0f98deadb23932d213693d3fc9268bf980970641fd808d94140f20fe9828c729"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/board_grpc_pb.js",
+      "bytes": 41,
+      "sha256": "d0a1e64dd5ca5947e0e3433166925d11d94d66c167ae3161e90792d0e5b06262"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/board_pb.d.ts",
+      "bytes": 27652,
+      "sha256": "018881c29725c8902942b235bce98df46c6dee51633a5b78f3e50b83802f3b9c"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/board_pb.js",
+      "bytes": 172349,
+      "sha256": "b9d6dd305869d2bb098de45a1b4679b7475c4f800fd295009762a8b59a682d43"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/commands_grpc_pb.d.ts",
+      "bytes": 95884,
+      "sha256": "bcb1a59988c866017140fc0ae2bfc5314302f5f78420e811636495092d19b8db"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/commands_grpc_pb.js",
+      "bytes": 76341,
+      "sha256": "67544d5787c6c3d0f82d6d2603bdc9707182ccef0fd80a83ea020692e6190f81"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/commands_pb.d.ts",
+      "bytes": 28877,
+      "sha256": "0d395f43c4e5377ff7dc473ad69d979779e3925c39c62a224ef42a92faa05349"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/commands_pb.js",
+      "bytes": 161234,
+      "sha256": "9bb8c87b225437cb96f6c2e192f326b8fda1cb74e170df7f2118af7994ba2568"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/common_grpc_pb.js",
+      "bytes": 41,
+      "sha256": "d0a1e64dd5ca5947e0e3433166925d11d94d66c167ae3161e90792d0e5b06262"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/common_pb.d.ts",
+      "bytes": 15141,
+      "sha256": "0e440210d08c0e3ac352483b8cf45f1ddce9d23df8b5a6d60de5d45563cc621c"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/common_pb.js",
+      "bytes": 96754,
+      "sha256": "fdcb28b3a086a5fcf2e1b06a4fc57b51285c6136152f8a65ccef77561463ed79"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/compile_grpc_pb.js",
+      "bytes": 41,
+      "sha256": "d0a1e64dd5ca5947e0e3433166925d11d94d66c167ae3161e90792d0e5b06262"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/compile_pb.d.ts",
+      "bytes": 9589,
+      "sha256": "ae85cff753408e0b71da2ea942e3ad2a5b8e4094f0dd624f8f8909fc69d55268"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/compile_pb.js",
+      "bytes": 57895,
+      "sha256": "d917f9e696910bb3ba8f8ae7ceadd8b2f6efde8473a66544fbe91d76c1bb91ed"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/core_grpc_pb.js",
+      "bytes": 41,
+      "sha256": "d0a1e64dd5ca5947e0e3433166925d11d94d66c167ae3161e90792d0e5b06262"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/core_pb.d.ts",
+      "bytes": 19921,
+      "sha256": "363b9bc7c6457e8d489ef20a00632000d1ecbfd74ca1ded82755e937d91fca85"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/core_pb.js",
+      "bytes": 109765,
+      "sha256": "102bdbe199ed1ee64e2e419b82ca34535ffc9cd6158fc04c9fe472a130ebe4b2"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/debug_grpc_pb.js",
+      "bytes": 41,
+      "sha256": "d0a1e64dd5ca5947e0e3433166925d11d94d66c167ae3161e90792d0e5b06262"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/debug_pb.d.ts",
+      "bytes": 12648,
+      "sha256": "6a9635012464d28fa628ed2541b63ad57bd4d5fbffd2aafc33ca5c4f27038056"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/debug_pb.js",
+      "bytes": 74398,
+      "sha256": "8bbc257345476bc8270ee6ab58e5a1b962e2de0057028cd87aedaeac42337f0a"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/lib_grpc_pb.js",
+      "bytes": 41,
+      "sha256": "d0a1e64dd5ca5947e0e3433166925d11d94d66c167ae3161e90792d0e5b06262"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/lib_pb.d.ts",
+      "bytes": 41567,
+      "sha256": "971ce3a38eeb28a83f3d3b4ba875c601c7501be4f26a389ad40f8224d0dc128a"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/lib_pb.js",
+      "bytes": 246022,
+      "sha256": "d1a50f8df72beb857e34cbc36e00e150d0588b32b037796b1c3cba2addd8cecc"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/monitor_grpc_pb.js",
+      "bytes": 41,
+      "sha256": "d0a1e64dd5ca5947e0e3433166925d11d94d66c167ae3161e90792d0e5b06262"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/monitor_pb.d.ts",
+      "bytes": 10517,
+      "sha256": "b0be8eb871e85d43a344fafbdb5b4b8cc2eabd2997edca84e8f1633ed351b344"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/monitor_pb.js",
+      "bytes": 61675,
+      "sha256": "1587339f078b509aaccd30673d4ab64ad1aee770a5f0afef89cddd741a6327ad"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/port_grpc_pb.js",
+      "bytes": 41,
+      "sha256": "d0a1e64dd5ca5947e0e3433166925d11d94d66c167ae3161e90792d0e5b06262"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/port_pb.d.ts",
+      "bytes": 1480,
+      "sha256": "29cf2fc28abab583ecc8e11a8bfb193d3e279064b0149d470da8ace8270f14f0"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/port_pb.js",
+      "bytes": 10163,
+      "sha256": "59f5e360ad7b65f653f8d0f834a9c4541dde186f089e0f02121fc87dd088097f"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/upload_grpc_pb.js",
+      "bytes": 41,
+      "sha256": "d0a1e64dd5ca5947e0e3433166925d11d94d66c167ae3161e90792d0e5b06262"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/upload_pb.d.ts",
+      "bytes": 20467,
+      "sha256": "a8157280a0e0c1d44e62e94682881837e9954766a9de90472f146df01402cc80"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/commands/v1/upload_pb.js",
+      "bytes": 122040,
+      "sha256": "395082853d01d8dd0f0a64973d715106c5daaa8e307c9a127d33a0a706f134ed"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/settings/v1/settings_grpc_pb.d.ts",
+      "bytes": 15098,
+      "sha256": "c0b8a45e5fa8a4d4657c91a17c23cfe0068ee5a878550a528380140ed1b453e2"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/settings/v1/settings_grpc_pb.js",
+      "bytes": 10880,
+      "sha256": "07fa337226da8f890f402dc6afe27c09d84de23908851aef2e368d2246e02c2f"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/settings/v1/settings_pb.d.ts",
+      "bytes": 10354,
+      "sha256": "033253ae402f3ea9766592db6f9256cbf09b85b59fb07a5cfeef88ccd1dc3604"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/cc/arduino/cli/settings/v1/settings_pb.js",
+      "bytes": 60513,
+      "sha256": "2da4d8801a9bb49c64f21853c97b044ce0d2bc38ffd338b0a51a28c9db3a4ecc"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/google/rpc/status_grpc_pb.js",
+      "bytes": 41,
+      "sha256": "d0a1e64dd5ca5947e0e3433166925d11d94d66c167ae3161e90792d0e5b06262"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/google/rpc/status_pb.d.ts",
+      "bytes": 1435,
+      "sha256": "6e17d22b0ec21fffca974e872c9ba192edbd2ba50203c726aa588e90163d8d61"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/cli-protocol/google/rpc/status_pb.js",
+      "bytes": 8057,
+      "sha256": "3d8745f5b1edb0a63a93124b3353e14da0c0fdce9c6e309359bc5e0f605d33f0"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/config-service-impl.ts",
+      "bytes": 12338,
+      "sha256": "f7c39ef0da9b24c1d8f1720ac77e45323a661954597d8d1beb977cbd4dc7b0b9"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/core-client-provider.ts",
+      "bytes": 20683,
+      "sha256": "d3b6eb78389a6dae1fede695fd56a4cdeca74f59fbf060adefab88cee26d85e8"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/core-service-impl.ts",
+      "bytes": 20651,
+      "sha256": "674b644af384f2c79500b872b73af726321d1967c5ea8e0da45870a13e29171e"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/default-formatter-config.json",
+      "bytes": 6399,
+      "sha256": "05380e27558b0b3287f7f99e98e1b40a9db44e3408f9043443203b636a35d531"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/examples-service-impl.ts",
+      "bytes": 7603,
+      "sha256": "9bb94e62c4dc7b2f2f88e20cb5a20501db1dd98a3e673f68a9b79f20ae3e36ce"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/exec-util.ts",
+      "bytes": 1565,
+      "sha256": "9cb5c1bcad72ab9c1dcec91b65dcf94de1b92e6d6ef1a8a5f6033eee8d85c4ea"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/executable-service-impl.ts",
+      "bytes": 688,
+      "sha256": "072b6f51f87946e9beb3762b6ea8d99222ef4a12cd9700d141827159821291f2"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/grpc-progressible.ts",
+      "bytes": 13267,
+      "sha256": "7b57ee3030f2971a4100a95551339c59363fe947bd59665de26712be76d1b20e"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/i18n/arduino-localization-contribution.ts",
+      "bytes": 2192,
+      "sha256": "d3bd024969b4a0a5985c06b88540ed059c056e867ffa78fdb6f0c66380278eff"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/is-temp-sketch.ts",
+      "bytes": 2167,
+      "sha256": "d68ad01af4f3d63c041b5eb242ef89b6e8b6d5d2cbfe485576361b6d370183c2"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/library-service-impl.ts",
+      "bytes": 15821,
+      "sha256": "315383c9bc3596d706a8a78da9dc4b89a30456c177d3358e3c762cef96c708ea"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/monitor-manager-proxy-impl.ts",
+      "bytes": 3075,
+      "sha256": "274eaadd33b2361a9710f083d42dcfabf6454e2119d7dc3e9e276d0ba37123f5"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/monitor-manager.ts",
+      "bytes": 11561,
+      "sha256": "4813168b9287b9b27eec90775c6adfe5f80abd7350bf1464b11f99c8780649fd"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/monitor-service-factory.ts",
+      "bytes": 491,
+      "sha256": "f376a9791a22afa0b27d99b58e027fa02e5839ff7e9d233c45ede7d5c2a6cfc6"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/monitor-service.ts",
+      "bytes": 27091,
+      "sha256": "f1f34c4274bd66534e78a9ee0c331873ee3fd5567bb6ceb4ac584041574bfeed"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/monitor-settings/monitor-settings-provider-impl.ts",
+      "bytes": 4136,
+      "sha256": "fad2ae1502a2623e9e33410b78a8d29504affa5d60028d86edb612bfb1f714cc"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/monitor-settings/monitor-settings-provider.ts",
+      "bytes": 440,
+      "sha256": "71adaa82f9b83b4b5900f3e81e45ddaa91472ea93182f4f3f8c1fd0b81b92613"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/monitor-settings/monitor-settings-utils.ts",
+      "bytes": 2629,
+      "sha256": "8a49a5dd883d457dd3f8f4ee3b7caa5d00b49e9ed4b5a26a9fa98fc58e16ce38"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/node-filesystem-ext.ts",
+      "bytes": 368,
+      "sha256": "70810921607e2138a6f208233de419d7ebcc47ddf62a1c5434606f9ac0f12743"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/notification-service-server.ts",
+      "bytes": 3259,
+      "sha256": "5d1ad5d0f1318eff11192d177a1f6a0d428aea2af632c642fc9d9fad0e501983"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/plotter/plotter-backend-contribution.ts",
+      "bytes": 735,
+      "sha256": "ece56e3e07bbc89f36a4836aea920bba6394d803fab48e1824f9cab85c3d182e"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/resources.ts",
+      "bytes": 1060,
+      "sha256": "67c802c41df4eb554f46755ead503b452ff1dcfb799815ad77d218e250c3d406"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/service-error.ts",
+      "bytes": 894,
+      "sha256": "0b521496ac8e82ac7e4d4da45f0b2828d284f945f174ee0e1a0ce8c96b76e8c9"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/settings-reader.ts",
+      "bytes": 1861,
+      "sha256": "b3a2db79c530621f79a780988023c6c2e25327889f9fa46ad3f6d7dafd7e55df"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/sketches-service-impl.ts",
+      "bytes": 34829,
+      "sha256": "71a5e2747acbf4d5f5274f8b2281d3648924c50d01c1e8a554560a08a6c8658a"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/survey-service-impl.ts",
+      "bytes": 703,
+      "sha256": "fcf1fb2e49870603a808e66a1d75e883d8bae3186dfb5864356e3c23e99b8572"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/theia/core/backend-application.ts",
+      "bytes": 1189,
+      "sha256": "22dd9b703eef03ace2bedaa8a22df80d689072b72d83a54a90b8ba8f6c4e8f8b"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/theia/core/messaging-contribution.ts",
+      "bytes": 489,
+      "sha256": "16852fa4a11fc9d326b122a2ea90344d191989098b29d50d5f02c3ed3ca1b168"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/theia/env-variables/env-variables-server.ts",
+      "bytes": 3593,
+      "sha256": "d7dfc578b4668cb75ed1b96fca0b0947bc63f9236154df9010ba4fa0e8dcd21b"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/theia/filesystem/nsfw-bindings.ts",
+      "bytes": 1767,
+      "sha256": "13953b5cf4f80cf99fcd8e70c264b118d2c51d4a2a17d006e9f9d40273855824"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/theia/filesystem/nsfw-watcher/index.ts",
+      "bytes": 1071,
+      "sha256": "2eba1792a3cdd6c7639caa452e7be3d7e65603f76e526faf446defb5ab62e7ed"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/theia/filesystem/nsfw-watcher/nsfw-filesystem-service.ts",
+      "bytes": 1015,
+      "sha256": "33fb9dd462fa027d45d2a6452211ff2638f163a829f306e1bdb2281a4da97485"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/theia/plugin-ext/hosted-plugin-localization-service.ts",
+      "bytes": 661,
+      "sha256": "fc34ceb157e6f19cbc9a88a94d0f02b298b5d7e9ae4e5e83e063ad23a03d658b"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/theia/plugin-ext/plugin-deployer.ts",
+      "bytes": 3678,
+      "sha256": "dea8a1e01e4ab885626149d65edd8fbd4e0e5bff4c2d286c7017cdda5b7af858"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/theia/plugin-ext/plugin-reader.ts",
+      "bytes": 3533,
+      "sha256": "6e2d660ab9befecf722493d79b51d11f75227ad5abcb74d7779149170ee54569"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/theia/workspace/default-workspace-server.ts",
+      "bytes": 1899,
+      "sha256": "fae2f59b11832e48c1b62fff8396a1a574578983c57aaf8eb1615fc9d880f8e4"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/utils/buffers.ts",
+      "bytes": 2995,
+      "sha256": "9055e24b5daded920a9748dc2d243085419d1643097e0927c002e352788eecc8"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/utils/errors.ts",
+      "bytes": 1894,
+      "sha256": "00a041d071c2594f492bca9a968c8f4fccdae5162efc5e7ee9562e8bffdb1a70"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/web-socket/web-socket-provider-impl.ts",
+      "bytes": 1601,
+      "sha256": "6b4cbfdab66fa1e792582a5dc8128d5de3b074a08babc1aad11e1c095847045a"
+    },
+    {
+      "path": "arduino-ide-extension/src/node/web-socket/web-socket-provider.ts",
+      "bytes": 408,
+      "sha256": "7045d15101d675aa43a3aec159fde5bf7c79a70f567742621364b3bfe1e40ca8"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/browser/ai-agent-panel-fixture.tsx",
+      "bytes": 8092,
+      "sha256": "0f665a08fd02ff12111c8aeb535a99ac5081b574b9ab180e3901e96ba95a82d3"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/browser/ai-agent-tools.test.ts",
+      "bytes": 2540,
+      "sha256": "a88e036d91a3ac3b8b03c7adb53be853d72d0313bb9b625f57aed8942f994b3e"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/browser/auto-select-programmer.test.ts",
+      "bytes": 5977,
+      "sha256": "12975765ef003424e8b75ccd535d356f37ada088f8e7b508ae07455015ae5eda"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/browser/board-service-provider.test.ts",
+      "bytes": 14481,
+      "sha256": "105aded96047ef1085a3e73cbb48545fb41cb2e7e32434233e7b3900b2438a71"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/browser/boards-data-store.test.ts",
+      "bytes": 20753,
+      "sha256": "a4997be6b3e0a25cddc9868c691997ddde7796e456b6c9ed9f60e56051dc310e"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/browser/browser-test-bindings.ts",
+      "bytes": 5580,
+      "sha256": "626e072bcec08f673fc9fdd9abee1d74f5b43cef7b0e97870138a079b6146795"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/browser/connection-status-service.test.ts",
+      "bytes": 2210,
+      "sha256": "23d99acdd0c8f94f736392b8ede42f5f3a685d5e105e98cfd872534382501e90"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/browser/create-api.slow-test.ts",
+      "bytes": 15845,
+      "sha256": "8017fbca230c81b5e5d5be7448afd89469ad335eff1da6394ad77993f2c780cc"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/browser/debug.test.ts",
+      "bytes": 12414,
+      "sha256": "30f8de85c8e53df0930b81cd3f13133c4ac55406bef329331feb06d33c4dd797"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/browser/dom.test.ts",
+      "bytes": 1658,
+      "sha256": "44c79485a567b206ecc824e21d49f493be49428d90a25d3f1916372e1afb5747"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/browser/fixtures/boards.ts",
+      "bytes": 1451,
+      "sha256": "16dbcd7a8c7f75bb9579caa44276b8c72d2c36222f360b157148633a7142d929"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/browser/monitor-utils.test.ts",
+      "bytes": 4676,
+      "sha256": "4c191341f17f7cf84e33949a7e680f01981f190da3a67b957402a104aae743be"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/browser/theming.test.ts",
+      "bytes": 7135,
+      "sha256": "8bac8d4b25f707c06f5d519532455449eb68463bb93531e53bc529a2b9cd195f"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/browser/update-arduino-state.test.ts",
+      "bytes": 18605,
+      "sha256": "5ca82325969d3d32b0f006d34c6247b89f14fe247eb40f295ccc8ec4d8ff9d2d"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/browser/widgets.test.ts",
+      "bytes": 3498,
+      "sha256": "b71da244a420105395b990c1b2ab2df45613380ed5999cdf3a91e074edfc60a7"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/browser/workspace-commands.test.ts",
+      "bytes": 8753,
+      "sha256": "db05e451965a45f391813e64eb7ed91ad6ee69e3292241e55d764784bc2c18c6"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/common/arduino-context-mapper.test.ts",
+      "bytes": 1248,
+      "sha256": "1a8384903da6ca60b3d5562805948fd7f2b397608e639c6ccd987940772fb737"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/common/board-list.test.ts",
+      "bytes": 24465,
+      "sha256": "25105c664fdeba7d708456ed3f078a2431a4b407b78c5cb28b20c045484cf51e"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/common/boards-service.test.ts",
+      "bytes": 8234,
+      "sha256": "c7e03745d91c0d20a74773f1ed6b86198ed584e1406eaae520454e6bfbf115c6"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/common/common-test-bindings.ts",
+      "bytes": 3137,
+      "sha256": "c6e34d2e7425fbd3b5888d258a77dff305d09a125c287b81419f528f55a47547"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/common/config-service.test.ts",
+      "bytes": 1282,
+      "sha256": "38a3acfce1a7d6ab5642af251026ac49bc810b3e08d287952c67871440d9f8a0"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/common/fixtures.ts",
+      "bytes": 4824,
+      "sha256": "d093411d6f759b98cb5d32f7f90afd139dc9d85e704c6c51f2b38a96bd45640d"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/common/installable.test.ts",
+      "bytes": 4490,
+      "sha256": "b648acdc533feebe9a635f298742981bd16d4e96f4cc49d4c16d0d19e4fb3f09"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/common/searchable.test.ts",
+      "bytes": 4499,
+      "sha256": "96a386ba627c739f6ac75cb43240b5250377fb2fe89cc5e77637c2942bf26947"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/common/sketches-service.test.ts",
+      "bytes": 6279,
+      "sha256": "c5ca3ac01dadb90c1b5d5d8708f42de70d99164213bddb250e4c765df57b0830"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/__test_sketchbook__/a_sketch/a_sketch.ino",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/__test_sketchbook__/bar++ 2/bar++ 2.ino",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/__test_sketchbook__/bar++/bar++.ino",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/__test_sketchbook__/bar++/foo++/foo++.ino",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/__test_sketchbook__/defaultIno.ino",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/__test_sketchbook__/empty/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/__test_sketchbook__/libraries/my_library/examples/Ethernet/Example_1/Example_1.ino",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/__test_sketchbook__/libraries/my_library/examples/WiFi/Example_2/Example_2.ino",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/__test_sketchbook__/mismatchingName/MismatchingName.ino",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/__test_sketchbook__/nested_4/nested_3/nested_2/nested_1/nested_1.ino",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/__test_sketchbook__/nested_4/nested_3/nested_2/nested_2.ino",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/__test_sketchbook__/project1/CodeA/version1A/version1A.ino",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/__test_sketchbook__/project1/CodeA/version2A/version2A.ino",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/__test_sketchbook__/project1/CodeB/version1B/version1B.ino",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/__test_sketchbook__/project1/CodeB/version2B/version2B.pde",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/ai-agent-history.test.ts",
+      "bytes": 3678,
+      "sha256": "684203e4e84e656f62a1f6c242af298d7cf00a733aaa3bfaba8bfd297ef05f4e"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/ai-agent-privacy.test.ts",
+      "bytes": 7035,
+      "sha256": "55b58af6e547ca6439cb93c23c22b422a7e709144e2f79bb48162d1002e4cae7"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/ai-agent-prompt.test.ts",
+      "bytes": 7232,
+      "sha256": "d8eae49aed54640746fc4a0557253ba8e507a76ff99f1d867de12d091df9e017"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/ai-agent-reasoning.test.ts",
+      "bytes": 8730,
+      "sha256": "0884d95c8c8adda5c2248adea3319e121d57aefc95ddc35fbbbc51991f499f73"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/arduino-daemon-impl.test.ts",
+      "bytes": 2368,
+      "sha256": "6b351edde67af3247e11c92496e52858abe7c0f06cec73d33e282c3ec6faa85d"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/boards-service-impl.slow-test.ts",
+      "bytes": 3487,
+      "sha256": "98ac7a1ab3e79fd37dfa59346dfa1ce25a1d76180a9996cb6ce6e059c7897c21"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/clang-formatter.test.ts",
+      "bytes": 4175,
+      "sha256": "88f0d46b1e5ff0bf92a0e55f9bb4c370b2c6624712d18a54a37d6c564108247e"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/cli-config.test.ts",
+      "bytes": 1315,
+      "sha256": "1c00b49be5d971a376a40b203c53c16a73ed6e23f98d8ebf0e5b415468cda61e"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/core-client-provider.slow-test.ts",
+      "bytes": 13259,
+      "sha256": "334f50e6cee470439dd9cc49dd0780936e30939a662159584e7a13f6d196266b"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/core-service-impl.slow-test.ts",
+      "bytes": 4354,
+      "sha256": "33a94c88101fe787f567ce9557b013fb8038b4b38b8bb7b19e544dde8da54298"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/core-service-impl.test.ts",
+      "bytes": 1867,
+      "sha256": "1142369d7fb0685da2eb565d29fe1f30d015f3c24102767bff3b41cdbb4f4785"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/exec-util.test.ts",
+      "bytes": 5660,
+      "sha256": "fb48b51e52161ecdf6d53898c086a4b1cc67e193d27e48b6e85271872ac41b15"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/library-service-impl.slow-test.ts",
+      "bytes": 2736,
+      "sha256": "af84f083c7ca2789694c74d61fc38a815d8c2dedbcf85181b0720a0de3ee2e81"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/monitor-settings-utils.test.ts",
+      "bytes": 6283,
+      "sha256": "5963223504aef82fab26f73f2fcd4c10400e34093b053961914b121dff48428e"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/node-test-bindings.ts",
+      "bytes": 11845,
+      "sha256": "3e37e8109b075a0cdab295e74f1b59fb60f1caa341e8035ea88d84bc4b49f333"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/settings.reader.test.ts",
+      "bytes": 965,
+      "sha256": "4f3762a2e0f4da2bf8c9a7d4ef9d4f75e408786b8228b0a4fa9a1982b846035e"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/sketches-service-impl.slow-test.ts",
+      "bytes": 23080,
+      "sha256": "7cc0c2590072aabaab5f961b213ad037d122717a53523f1483c77bb8758c7c23"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/node/sketches-service-impl.test.ts",
+      "bytes": 4944,
+      "sha256": "0f7c11e7392f7ab5e515befbe3f7da190436a5f21f83206f43b4b6cfaff97fab"
+    },
+    {
+      "path": "arduino-ide-extension/src/test/utils.ts",
+      "bytes": 204,
+      "sha256": "8f1bc40d03aa410dae8359807eb679dc74bdd554c428d47f62d1163ce976df22"
+    },
+    {
+      "path": "arduino-ide-extension/tsconfig.json",
+      "bytes": 632,
+      "sha256": "225a26c55c4f37e3602352944bf98bec0e7105fc2aa7615c7fc367f41a41869a"
+    },
+    {
+      "path": "docs/CONTRIBUTING.md",
+      "bytes": 1816,
+      "sha256": "37aaf4fb40aa7577b49f4d6ba8020f25b6726156cadcf7b8f67d40dd3d914c98"
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 3330,
+      "sha256": "76e9b01f25207e9fec5ef9b614982f6676ea321bd29a0c1ff078ed4a993e0011"
+    },
+    {
+      "path": "docs/advanced-usage.md",
+      "bytes": 3268,
+      "sha256": "146bba9d559a5dfaefa4d26ae643b43abf034c9aa8efc968d7f0c058e4897654"
+    },
+    {
+      "path": "docs/ai-agent-quality.md",
+      "bytes": 3607,
+      "sha256": "71f6eec592ddc3d8a13e1a646c0b0b2e6a3cd5d0d26fa4f530911696b7ece6d9"
+    },
+    {
+      "path": "docs/ai-agent-thinking-and-prompts.md",
+      "bytes": 2844,
+      "sha256": "8bdcda25c7ddf87bd8978e02ae05f00439dbc486956a4655f32255d4ddd0f12e"
+    },
+    {
+      "path": "docs/ai-agent.md",
+      "bytes": 5696,
+      "sha256": "1ba09644a5483aed415d5896b75144d833e353d5570c4324d324cdba6c7c028e"
+    },
+    {
+      "path": "docs/assets/preferences.png",
+      "bytes": 85288,
+      "sha256": "783c021f62724aed3c65aa2db27b9ed15b84ac7bac7f3554f1d6e03e281d8ea9"
+    },
+    {
+      "path": "docs/assets/remote.png",
+      "bytes": 100086,
+      "sha256": "9259b4ba56eda735ad9b8132b6fa2e0bde627f3f3d0bfe80ca9180ba85944d0a"
+    },
+    {
+      "path": "docs/contributor-guide/assets/checks-tab.png",
+      "bytes": 42700,
+      "sha256": "ab89a06d885296a86e47f3d343c0c9bd73e95c3ccb33e1d2083cddbefbad2144"
+    },
+    {
+      "path": "docs/contributor-guide/assets/checks.png",
+      "bytes": 40075,
+      "sha256": "17670b7ba5966f3e4619fb7d6520f1fa4c22bbde5070cf436a598cff18a5ddd4"
+    },
+    {
+      "path": "docs/contributor-guide/assets/tester-build-artifacts.png",
+      "bytes": 17208,
+      "sha256": "7183fde5fe69afd49625c00e45c00254a25606a28b188ed27d0e39862ef4f095"
+    },
+    {
+      "path": "docs/contributor-guide/assets/tester-build-link.png",
+      "bytes": 20961,
+      "sha256": "a6f236cef66a0805ef3d69f5a2482234b3f47935a133e057e9ee628e64832738"
+    },
+    {
+      "path": "docs/contributor-guide/beta-testing.md",
+      "bytes": 5097,
+      "sha256": "d9fa424cc9c189e303d25bee5c468933734e79d335859d904cde9399cf86bfea"
+    },
+    {
+      "path": "docs/contributor-guide/issues.md",
+      "bytes": 2234,
+      "sha256": "1715bf6fc66211ed60069cbd1db2fcba7e978fa09497f92e5b1f011bcb549c64"
+    },
+    {
+      "path": "docs/contributor-guide/pull-requests.md",
+      "bytes": 11401,
+      "sha256": "0250863e040d89689b944cfdcfbdacc4959507847dec3e328c2b75f818b12b13"
+    },
+    {
+      "path": "docs/contributor-guide/translation.md",
+      "bytes": 1849,
+      "sha256": "f1c03374fda29a68b30aaf50a8d14e7d079264c99d562c37a9d6f7b2a01e9195"
+    },
+    {
+      "path": "docs/development.md",
+      "bytes": 10870,
+      "sha256": "b97057d5eeda43e5cd4832626e6c1af7b7d6ad467eae2ab71b0de30b32da9216"
+    },
+    {
+      "path": "docs/internal/Ubuntu.md",
+      "bytes": 1555,
+      "sha256": "17c88a977c039999a4f4c495d44a77d5734478a8c88ad0ba44496e61b04417ad"
+    },
+    {
+      "path": "docs/internal/release-procedure.md",
+      "bytes": 9893,
+      "sha256": "0db9c3a8502d2a8dc2961c67c410a9d55ddbfe002d7d133ff2edbc45c8c98716"
+    },
+    {
+      "path": "docs/release-check-2026-10-14.md",
+      "bytes": 2825,
+      "sha256": "86b1e6eb75a061d1189b9d233b84515eb06bb274bea1f1d3c923daca0a4e9fa2"
+    },
+    {
+      "path": "docs/source-release.md",
+      "bytes": 2679,
+      "sha256": "b7026f48d04c6fc0ad57c22e8db0234e70bfcc6a7cccf48920bcec905a9492ed"
+    },
+    {
+      "path": "electron-app/arduino-ide-backend-main.js",
+      "bytes": 572,
+      "sha256": "74154855a50d9ba40ef39854ad6622cecdd8ba1ca9315a4cac1df31ad7abc09f"
+    },
+    {
+      "path": "electron-app/arduino-ide-electron-main.js",
+      "bytes": 3587,
+      "sha256": "888c1f6f9ce3b216629383b97656e12bf96fc652016ef7a493335891862a8ca6"
+    },
+    {
+      "path": "electron-app/launcher/build.cjs",
+      "bytes": 670,
+      "sha256": "e382a1d15cb8729e8e2ae92a88a0f24ec1d7b75c9b39ec243b70cc622a30bf68"
+    },
+    {
+      "path": "electron-app/launcher/main.go",
+      "bytes": 484,
+      "sha256": "25e878c5ec61bfb57617a5c3753d51b9d579b555c6104fb375fb8ba94e7f8932"
+    },
+    {
+      "path": "electron-app/package.json",
+      "bytes": 9072,
+      "sha256": "08b5c8185b9bbcebfca09a0dabee3e27c96970a46bf78afb49162602a06d6a8f"
+    },
+    {
+      "path": "electron-app/resources/entitlements.mac.plist",
+      "bytes": 501,
+      "sha256": "40ce379853bb1e004b8e368a9b8b4125b9a2bf4db633934a7d1004958f06a23d"
+    },
+    {
+      "path": "electron-app/resources/eula.txt",
+      "bytes": 704,
+      "sha256": "31145f7abadfd3e95bef9f4199c4fad39baa279dabfe113f90de6c6adf82cde6"
+    },
+    {
+      "path": "electron-app/resources/icon.icns",
+      "bytes": 366131,
+      "sha256": "7d3177096c65b7841560dfad864c26d7bbf5d34cb5a0ae348d2e40e662a69a28"
+    },
+    {
+      "path": "electron-app/resources/icon.ico",
+      "bytes": 47519,
+      "sha256": "ac4398b24425ba9f6bc836bc89ae4683155c15347e1d38874ad8636faf884bef"
+    },
+    {
+      "path": "electron-app/resources/icons/512x512.png",
+      "bytes": 74027,
+      "sha256": "bb8c484af1488c3596e0eb123a84766c84cf82328a1b3ec30c364203492157c9"
+    },
+    {
+      "path": "electron-app/resources/installerSidebar.bmp",
+      "bytes": 207296,
+      "sha256": "c8da97ad190c7e8078a95942c91fd8741a44060421e4916c60eae42796305636"
+    },
+    {
+      "path": "electron-app/resources/preload.html",
+      "bytes": 8033,
+      "sha256": "e4ccb1695183db5c3b2517809a2e3f8e468cbbe29dc580147df5d750c414b480"
+    },
+    {
+      "path": "electron-app/resources/windows/repair-startup.ps1.in",
+      "bytes": 3862,
+      "sha256": "51207203f744b47a40b735095cc8efb134339caa28150923cf2bd6d67822da4c"
+    },
+    {
+      "path": "electron-app/resources/windows/启动说明.txt",
+      "bytes": 1347,
+      "sha256": "85fb733eb14337a8c6a760eef1ff10c613a986e4dcbd94b5150d8be352185acf"
+    },
+    {
+      "path": "electron-app/scripts/after-pack.js",
+      "bytes": 1432,
+      "sha256": "1c5286ce73a4981945a1719216cf11afd9c0ae93c7298b2e39f8fb7ee10dca34"
+    },
+    {
+      "path": "electron-app/scripts/archive.js",
+      "bytes": 3832,
+      "sha256": "52fceaa3562a7526991c16366f3beef67e007ec9bbdb959fa996c52294fab840"
+    },
+    {
+      "path": "electron-app/scripts/notarize.js",
+      "bytes": 1646,
+      "sha256": "2b9a66564cdf0a964ddcda0b5a68530f2e72cf62cb01fee9e8f60a3669c1c642"
+    },
+    {
+      "path": "electron-app/scripts/package.js",
+      "bytes": 5467,
+      "sha256": "abf66d0fea4d582ca5a1ec52853acf982fe3624b6ba213ea112d787afeb632ef"
+    },
+    {
+      "path": "electron-app/scripts/post-package.js",
+      "bytes": 6123,
+      "sha256": "f4b2a61b591200dedbadd0eab1a02fd1004fd79eeb3123a22befc49d0360cec2"
+    },
+    {
+      "path": "electron-app/scripts/utils.js",
+      "bytes": 252,
+      "sha256": "4f5ca90a5fa9947b64bfab95a6f20cd985abca3b50f1cda7d35a221c27351f70"
+    },
+    {
+      "path": "electron-app/scripts/windows-startup.js",
+      "bytes": 2644,
+      "sha256": "d2a50a7f648bf40e35f9cfb1dcc284d51b77e5aa3aba64180614c501763f7abc"
+    },
+    {
+      "path": "electron-app/test/archive.test.js",
+      "bytes": 5505,
+      "sha256": "35acf14f63153abc938e9d4101c18a55e7c93efe4fa2db5d478a55cb2a9bb0f3"
+    },
+    {
+      "path": "electron-app/test/test-resources/not-a-zip.dmg",
+      "bytes": 8380416,
+      "sha256": "1ab8d27db9d87da0319be15e333a073c3e3f9bb0f9194f276d1929018bb09779"
+    },
+    {
+      "path": "electron-app/test/test-resources/zip with whitespace.zip",
+      "bytes": 1425,
+      "sha256": "0fa8b4540967cf6945f55f651a8a4df9457a110b661d9050492a7b1b3135cae4"
+    },
+    {
+      "path": "electron-app/test/test-resources/zip-with-base-folder.zip",
+      "bytes": 3136,
+      "sha256": "9d35821349709a10ccfda1abc2c5c1a019772b07684e423e37f39d41c0a26f73"
+    },
+    {
+      "path": "electron-app/test/test-resources/zip-with-symlink.zip",
+      "bytes": 729,
+      "sha256": "5c23bd36b62edd1ff3dab1f7e69931a4fe498e9fafa7bcf979adef8cd1499b03"
+    },
+    {
+      "path": "electron-app/test/test-resources/zip-without-symlink.zip",
+      "bytes": 1425,
+      "sha256": "0fa8b4540967cf6945f55f651a8a4df9457a110b661d9050492a7b1b3135cae4"
+    },
+    {
+      "path": "electron-app/test/windows-startup.test.js",
+      "bytes": 7208,
+      "sha256": "01c42260ad838f68021da69f2baf9e08e9f6b33c565954bac2431cfcee8afc40"
+    },
+    {
+      "path": "electron-app/webpack.base.js",
+      "bytes": 2942,
+      "sha256": "44ea02a5cbc5fa1a7775dcef563f53639ca695cc7717d5651fd054df9d3fa74c"
+    },
+    {
+      "path": "electron-app/webpack.config.js",
+      "bytes": 2221,
+      "sha256": "888ef55ed3b48ba95836d42e2aecf72ae53e37bbe3510b3076f8addd7b386c1e"
+    },
+    {
+      "path": "electron-app/webpack.dev.js",
+      "bytes": 792,
+      "sha256": "0d86dc61b2ba3d19b8f7aeb192a1e47bed0b302ad272d4eb1043843f079a6f28"
+    },
+    {
+      "path": "i18n/README.md",
+      "bytes": 629,
+      "sha256": "65244f49d7d13d78f99cca9d5331131c1967a430c21af769e11ba641d2ca5a2b"
+    },
+    {
+      "path": "i18n/af.json",
+      "bytes": 27903,
+      "sha256": "3a4cf38cfcd5fcde2dffd8935992892dcde1ca342166700b2b0b20249668f12b"
+    },
+    {
+      "path": "i18n/ar.json",
+      "bytes": 35935,
+      "sha256": "fee455f79f9bb75386394872b0097c9c0e507dd2600f222e3b2669a83f2983d1"
+    },
+    {
+      "path": "i18n/az.json",
+      "bytes": 28017,
+      "sha256": "301365e005ca24334ef2b27906dc263b8d744986f0e3aaccf7d2485c9f56cef6"
+    },
+    {
+      "path": "i18n/bg.json",
+      "bytes": 34890,
+      "sha256": "4524b8f683ebe353de77950e5a48fae9dcd25f404cba2633f72651a8c8158a87"
+    },
+    {
+      "path": "i18n/ca_ES.json",
+      "bytes": 30590,
+      "sha256": "ea6081e3b30ccd77cba8deb35eec2ee0ab1c9bf70ae369ecb950aeea9227455a"
+    },
+    {
+      "path": "i18n/cs.json",
+      "bytes": 29088,
+      "sha256": "bff9881941d5c9c1c99574d8716b48b2178f00e81a872366d2d6064f97987ac6"
+    },
+    {
+      "path": "i18n/de.json",
+      "bytes": 30764,
+      "sha256": "74565fa14eb79724d274145c44a5ac2fd2b2621dfde8a33ce3a7d918f33e2168"
+    },
+    {
+      "path": "i18n/el.json",
+      "bytes": 43071,
+      "sha256": "cdfc05b8ebd6d39537a07f4472782f62f4992f1655f8e6690d1a522c8e57c219"
+    },
+    {
+      "path": "i18n/en.json",
+      "bytes": 27849,
+      "sha256": "4255d5c1dcedec9746e0bde0faac4f8736a4985530e695878dc03817b60edf19"
+    },
+    {
+      "path": "i18n/es.json",
+      "bytes": 30170,
+      "sha256": "30fcf8b000d286ccc776efaffdeae25fcf60edd82f07a7362647251191c9befe"
+    },
+    {
+      "path": "i18n/eu.json",
+      "bytes": 29084,
+      "sha256": "51012e92350b4b7c135b80a59f48d8602dd8ae69c48d7848e413f2c907b4cbcd"
+    },
+    {
+      "path": "i18n/fa.json",
+      "bytes": 38764,
+      "sha256": "88978b23f188c9c13f92d4385302f9f1719f91c569111f6ab49a85ce0705ebc0"
+    },
+    {
+      "path": "i18n/fil.json",
+      "bytes": 28070,
+      "sha256": "61e3d5a58bc0a768adaf03d1821d5e3e7fd42af0d1b399e4c2bb99f8cd913135"
+    },
+    {
+      "path": "i18n/fr.json",
+      "bytes": 30615,
+      "sha256": "13d2f953a4188ae9958e82510ef6fb3e591003c43082af53fca8bd85dd7cb0f3"
+    },
+    {
+      "path": "i18n/he.json",
+      "bytes": 29919,
+      "sha256": "d98b86507866486020f63538b7568f1af2cb5f52f641b9029f7ffc598ffec1fa"
+    },
+    {
+      "path": "i18n/hu.json",
+      "bytes": 30459,
+      "sha256": "7d377d29820844aadccc0eaaeefed8f50b0955b1af1360e78d499d4b647273f4"
+    },
+    {
+      "path": "i18n/id.json",
+      "bytes": 27992,
+      "sha256": "6ec1572c7749b3506a1c14dcbf2f8ec78841712553e7c84a31a96af2b970db97"
+    },
+    {
+      "path": "i18n/it.json",
+      "bytes": 31264,
+      "sha256": "e3248782ce4e193e0350ff281ab2e96a9e1afa244f11e8d60e80529b973084f6"
+    },
+    {
+      "path": "i18n/ja.json",
+      "bytes": 34533,
+      "sha256": "c9cca3b7019b53620416e49f7f67d4ccf755f5d566489242886bedeea7b4a357"
+    },
+    {
+      "path": "i18n/ko.json",
+      "bytes": 30311,
+      "sha256": "5c4cee4e03d020e9e9068835e3a827a847018cdb8cac19b6518ea597580d6ecc"
+    },
+    {
+      "path": "i18n/my_MM.json",
+      "bytes": 50023,
+      "sha256": "e39fd68500dd7cac3b64f95ee5aee2b1aba16c34f0a9498337dbc36ef9cb6b7c"
+    },
+    {
+      "path": "i18n/ne.json",
+      "bytes": 55307,
+      "sha256": "6fed8555bcd8b99b1e399ec8b6d26dce34fcef7fcb301c53a1ad8f5001978184"
+    },
+    {
+      "path": "i18n/nl.json",
+      "bytes": 29862,
+      "sha256": "85d0c73015a21d2f43280b3f29b2688a3efdfe0360a3d3bc172ed245808218df"
+    },
+    {
+      "path": "i18n/pl.json",
+      "bytes": 29859,
+      "sha256": "0ad63f2e23c5d4c53bf7c1ee89f0f47ec5a24dc7e7afeb242aab6cefdf0f6c15"
+    },
+    {
+      "path": "i18n/pt.json",
+      "bytes": 30554,
+      "sha256": "5e08e9bf864fdcaeb943be14ff38ef14dfe1ad45f04d3cb1907fc68fec550f7d"
+    },
+    {
+      "path": "i18n/ro.json",
+      "bytes": 28221,
+      "sha256": "7f6035d293ab7e9d5801b3d41483671fce347e342835df99a68f8dabd69ede42"
+    },
+    {
+      "path": "i18n/ru.json",
+      "bytes": 37413,
+      "sha256": "6ea352d66966583701c0f0d0fdcf099cae35cb353285705918de2ea98407f096"
+    },
+    {
+      "path": "i18n/sr.json",
+      "bytes": 32499,
+      "sha256": "370753c2dea2494c422bac239a68d62d45d717eb3a41d9335fa24206ca9bec85"
+    },
+    {
+      "path": "i18n/th.json",
+      "bytes": 30418,
+      "sha256": "f592021aa6c4684035f5ec477df13bfd78fc505a5e667d0d0381593be6de116c"
+    },
+    {
+      "path": "i18n/tr.json",
+      "bytes": 28961,
+      "sha256": "6143a92ee8dd2f7c1e8fecb069cd0c2f0431b955399f7cec4e917cd1f97bddfe"
+    },
+    {
+      "path": "i18n/uk.json",
+      "bytes": 39906,
+      "sha256": "830013257b354eabc1f65c01dbac831521e08cdc25994a8e9bc810ef13a1bc15"
+    },
+    {
+      "path": "i18n/vi.json",
+      "bytes": 31311,
+      "sha256": "67349de54619c4997fb7cd465416b78f6f345d4700b9b0633530dac689554bd4"
+    },
+    {
+      "path": "i18n/zh-Hant.json",
+      "bytes": 25860,
+      "sha256": "977f0daacb982a29cc8dc78b6e8c78501d961d56c2eeaaeaf5f3b217512ae68f"
+    },
+    {
+      "path": "i18n/zh.json",
+      "bytes": 26771,
+      "sha256": "d187f94a7acee27c65cc3e0914b5fc900877585d77c7ab1dfeeb78b2101c158d"
+    },
+    {
+      "path": "i18n/zh_TW.json",
+      "bytes": 25687,
+      "sha256": "88abb43a9e9c27c268d8f40b481117e9809604530a79ab3234f174abfdd48e90"
+    },
+    {
+      "path": "lerna.json",
+      "bytes": 144,
+      "sha256": "461ec88c792f62c185de4b21f8fa91c22e7755de4738b677552d601da6869908"
+    },
+    {
+      "path": "package.json",
+      "bytes": 2909,
+      "sha256": "bb067d1e74fec68e747fc4508abada73817275826e051a31d6fec10661c52c20"
+    },
+    {
+      "path": "scripts/export-source.py",
+      "bytes": 11893,
+      "sha256": "eeacb5e7bd76c4c40c50ecbfa82f869ba13348ee4999ea75cd7780c593b08ad4"
+    },
+    {
+      "path": "scripts/i18n/transifex-pull.js",
+      "bytes": 5428,
+      "sha256": "656a2ac39b2b6e8d71ef62129ee1e32d3eef4914a58be0bae884b38bb53acc29"
+    },
+    {
+      "path": "scripts/i18n/transifex-push.js",
+      "bytes": 3316,
+      "sha256": "8a4338ad78361c4466fc3b10381177d6c40e07f0f0992288d5e4fcf478f660d7"
+    },
+    {
+      "path": "scripts/i18n/transifex.js",
+      "bytes": 1219,
+      "sha256": "a083509db180d329420fef2a96595149dff582c1b7521061550052e83ad9a704"
+    },
+    {
+      "path": "scripts/merge-channel-files.js",
+      "bytes": 2060,
+      "sha256": "16800b5ffac86b84c973d6beeaccde5147640c3e7b12ffe80daa47cd88e11fbd"
+    },
+    {
+      "path": "scripts/package.sh",
+      "bytes": 320,
+      "sha256": "c39be8adbdf00e217085c87f1509036df526aad609f8b3a17d65d6fcd671e437"
+    },
+    {
+      "path": "scripts/qa-agent-panel.cjs",
+      "bytes": 13666,
+      "sha256": "66cb6f5882976bda2ff9272d151e87c7ba4c757ed8a5c493f439ae36cf773b1c"
+    },
+    {
+      "path": "scripts/qa-agent-prompt.cjs",
+      "bytes": 12190,
+      "sha256": "86294b2633fdc25c53695f01c6779f3bedb9b7336cf02b81e860e4700db929f6"
+    },
+    {
+      "path": "scripts/sort-dependencies",
+      "bytes": 900,
+      "sha256": "65eb233ba13c42ff909ef4a740fe18d12734baec5adbf3becb5889c9fb16f356"
+    },
+    {
+      "path": "scripts/test-export-source.py",
+      "bytes": 3571,
+      "sha256": "e9df6d95ccfa09542e889b2d357a82153dd06d16d414673440a2e1e730db5a54"
+    },
+    {
+      "path": "scripts/themes/theme-generator.js",
+      "bytes": 3530,
+      "sha256": "5ea85efa8a7347965c3a9cb117b81f43b27eb474cf7f1bdefc99d80bc4a5bf4a"
+    },
+    {
+      "path": "scripts/themes/theme-tokens-pull.js",
+      "bytes": 901,
+      "sha256": "336cfbf39a1d5bfd6a08caad18e0a002b16a6dc8cdc7287cdb2826809b808ec6"
+    },
+    {
+      "path": "scripts/update-version.js",
+      "bytes": 1815,
+      "sha256": "9abb7912bea8442bde06fdea48942ce83450b56a10e132fc8542117e8f1d0fcf"
+    },
+    {
+      "path": "static/screenshot.png",
+      "bytes": 940628,
+      "sha256": "6e79745d8099c99969f7f5d7c56cba769fa777d6d8a4e7622a915cae3e409d9b"
+    },
+    {
+      "path": "yarn.lock",
+      "bytes": 657496,
+      "sha256": "97aaafd311c121ab59ee6ae0a5c2d67f8196309cf0083dd4ae26d4ea8492abb9"
+    }
+  ],
+  "adjustments": [
+    "Generate localization resources before GitHub CI type checking."
+  ]
+}
